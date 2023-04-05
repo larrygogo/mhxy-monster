@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "大海龟",
+    "requiredSkills": [],
+    "optionalSkills": []
+  },
+  {
+    "id": 2,
+    "name": "画魂",
+    "requiredSkills": [412, 429],
+    "optionalSkills": [317, 424]
+  },
+  {
+    "id": 3,
+    "name": "持国巡守",
+    "requiredSkills": [],
+    "optionalSkills": [661, 411, 426, 309]
+  },
+  {
+    "id": 4,
+    "name": "涂山雪",
+    "requiredSkills": [],
+    "optionalSkills": [310, 441, 309, 335]
+  },
+  {
+    "id": 5,
+    "name": "毗舍童子",
+    "requiredSkills": [305, 319],
+    "optionalSkills": [641, 322, 627]
+  }
+]
