@@ -36,3 +36,17 @@ export const getRandomItems = (arr: Array<any>, count: number) => {
 	}
 	return result;
 }
+
+// 有一个概率数组，根据相应的概率返回对应的下标
+export const getRateLevel = (rateLevels: number[]) => {
+  const total = rateLevels.reduce((a, b) => a + b);
+  const random = Math.random() * total;
+  let level = 0;
+  for (let i = 0; i < rateLevels.length; i++) {
+    level += rateLevels[i];
+    if (random < level) {
+      return i / 10;
+    }
+  }
+  return 1;
+}

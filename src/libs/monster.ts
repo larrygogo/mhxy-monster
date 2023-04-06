@@ -1,14 +1,14 @@
-import {getRateTrue, getRandomInt, getRandomItems, shuffle, unique} from '../utils';
+import {getRateTrue, getRandomItems, shuffle, unique, getRateLevel} from '../utils';
 import monsterData from '../data/monster.json';
 import {v4 as uuidV4} from 'uuid';
 import {
-    MONSTER_FIRST_OPTIONAL_SKILL_RATE,
-    MIX_MONSTER_NOT_PARTICIPATE_RATE,
-    MONSTER_OPTIONAL_SKILL_RATE,
-    MIX_MONSTER_TURTLE_RATE,
-    MIX_MONSTER_WILD_RATE,
-    MUTEX_SKILLS,
-    SKILL_SORT,
+  MONSTER_FIRST_OPTIONAL_SKILL_RATE,
+  MIX_MONSTER_NOT_PARTICIPATE_RATE,
+  MONSTER_OPTIONAL_SKILL_RATE,
+  MIX_MONSTER_TURTLE_RATE,
+  MIX_MONSTER_WILD_RATE,
+  MUTEX_SKILLS,
+  SKILL_SORT, MIX_MONSTER_SKILL_NUM_RATE,
 } from '../config/constant';
 
 export const initMonster = (id: number) => {
@@ -49,11 +49,16 @@ export const mixMonster = (monsters: [Monster, Monster]) => {
 	const m2Init = monsterData.find((m) => m.id === m2.mid) as MonsterInintail;
 	const newMonsterInit = getRateTrue(0.5) ? m1Init : m2Init;
 
-	const requiredSkills = shuffle(newMonsterInit.requiredSkills);
+	const requiredSkills = newMonsterInit.requiredSkills.slice();
 
 	const allSkills = filterMutexSkills(unique([...m1.skills, ...m2.skills]));
 
-	const optionalSkills = getRandomItems(allSkills, getRandomInt(0, allSkills.length));
+  const getRateSkillCount = (skills: number[]) => {
+    const level = getRateLevel(MIX_MONSTER_SKILL_NUM_RATE)
+    return Math.floor(skills.length * level);
+  }
+
+	const optionalSkills = getRandomItems(allSkills, getRateSkillCount(allSkills));
 
 	const skills = sortSkills(unique([...requiredSkills, ...optionalSkills]));
 
@@ -95,3 +100,5 @@ export const filterMutexSkills = (skills: number[]) => {
     }
     return Array.from(skillsSet);
 }
+
+
