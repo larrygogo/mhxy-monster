@@ -71,6 +71,7 @@ export const mixMonster = (monsters: [Monster, Monster]) => {
 		wild,
 		skills,
 	}
+
 }
 
 // 根据SKILL_SORT排序
