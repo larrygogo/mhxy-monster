@@ -16,15 +16,14 @@ export function getRandomInt(min: number, max: number) {
 }
 
 //给定一个概率值，有此概率返回true
-export function getRandomBool(p: number) {
-  return Math.random() < p;
+export function getRateTrue(rate: number) {
+  return Math.random() < rate;
 }
 
 // 数组去重
 export const unique = (arr: Array<any>) => {
 	return [...new Set(arr)];
 }
-
 
 // 从数组中随机取出几个元素
 export const getRandomItems = (arr: Array<any>, count: number) => {

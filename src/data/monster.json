@@ -2,8 +2,8 @@
   {
     "id": 1,
     "name": "大海龟",
-    "requiredSkills": [],
-    "optionalSkills": []
+    "requiredSkills": [332, 335],
+    "optionalSkills": [303, 315, 317]
   },
   {
     "id": 2,
@@ -28,5 +28,11 @@
     "name": "毗舍童子",
     "requiredSkills": [305, 319],
     "optionalSkills": [641, 322, 627]
+  },
+  {
+    "id": 6,
+    "name": "泡泡",
+    "requiredSkills": [],
+    "optionalSkills": [435, 417, 305, 318, 309]
   }
 ]
