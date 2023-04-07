@@ -1,7 +1,9 @@
 import Head from 'next/head'
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import {initMonster, mixMonster} from "@/src/libs/monster";
 import WindowWrapper from "@/src/components/window-wrapper";
+import {getRateLevel} from "@/src/utils";
+import {MIX_MONSTER_SKILL_NUM_RATE} from "@/src/config/constant";
 
 const skillData: Skill[] = require('@/src/data/skill.json')
 
@@ -9,6 +11,25 @@ export default function Home() {
 	const [m1, setM1] = useState<Monster>(initMonster(2))
 	const [m2, setM2] = useState<Monster>(initMonster(3))
 	const [m3, setM3] = useState<Monster>()
+
+  useEffect(() => {
+    const map = new Map<number, number>()
+    for (let i = 0; i < 10000; i++) {
+      const level = getRateLevel(MIX_MONSTER_SKILL_NUM_RATE)
+      const strLevel = level * 10 + 1
+      if (map.has(strLevel)) {
+        const num = map.get(strLevel) || 0
+        map.set(strLevel, num + 1)
+      } else {
+        map.set(strLevel, 1)
+      }
+    }
+    const arr = Array.from(map.entries())
+    console.log('技能数量概率')
+    arr.sort((a, b) => a[0] - b[0]).forEach(([level, num]) => {
+      console.log(`${level}级：${num / 10000}, 3+1=${Math.round(((level-1) / 10) * (3 + 1))}}`)
+    })
+  }, [])
 
 	const changeM1 = () => {
 		const m = initMonster(2)

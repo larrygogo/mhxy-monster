@@ -51,11 +51,11 @@ export const mixMonster = (monsters: [Monster, Monster]) => {
 
 	const requiredSkills = newMonsterInit.requiredSkills.slice();
 
-	const allSkills = filterMutexSkills(unique([...m1.skills, ...m2.skills]));
+	const allSkills = filterMutexSkills([...m1.skills, ...m2.skills, ...requiredSkills]);
 
   const getRateSkillCount = (skills: number[]) => {
     const level = getRateLevel(MIX_MONSTER_SKILL_NUM_RATE)
-    return Math.floor(skills.length * level);
+    return Math.round(skills.length * level);
   }
 
 	const optionalSkills = getRandomItems(allSkills, getRateSkillCount(allSkills));
