@@ -34,5 +34,11 @@
     "name": "泡泡",
     "requiredSkills": [],
     "optionalSkills": [435, 417, 305, 318, 309]
+  },
+  {
+    "id": 7,
+    "name": "律法女娲",
+    "requiredSkills": [],
+    "optionalSkills": [554, 402, 322, 309]
   }
 ]

@@ -1,13 +1,15 @@
-// 召唤兽每个可选技能附带的概率
-export const MONSTER_OPTIONAL_SKILL_RATE = 0.22;
-// 召唤兽第一个可选技能附带的概率
-export const MONSTER_FIRST_OPTIONAL_SKILL_RATE = 0.45;
+// 召唤兽每个非特殊技能附带的概率
+export const MONSTER_OPTIONAL_SKILL_RATE = 0.25;
+// 召唤兽第一个非特殊技能附带的概率
+export const MONSTER_FIRST_OPTIONAL_SKILL_RATE = 0.3;
+// 召唤兽每个特殊技能附带的概率
+export const MONSTER_SPECIAL_SKILL_RATE = 0.1;
 // 合宠出现不是参与合宠召唤兽的概率
 export const MIX_MONSTER_NOT_PARTICIPATE_RATE = 0.2;
 // 合宠出现的大海龟的概率（不是大海龟则是泡泡）
-export const MIX_MONSTER_TURTLE_RATE = 0.8;
+export const MIX_MONSTER_TURTLE_RATE = 1;
 // 合宠出现野生的概率
-export const MIX_MONSTER_WILD_RATE = 0.3;
+export const MIX_MONSTER_WILD_RATE = 0.25;
 // 每个技能数量档位的概率
 export const MIX_MONSTER_SKILL_NUM_RATE = [
   0.22,
@@ -21,6 +23,11 @@ export const MIX_MONSTER_SKILL_NUM_RATE = [
   0.005,
   0.001,
   0.0005,
+]
+
+// 特殊技能
+export const SPECIAL_SKILLS = [
+
 ]
 
 

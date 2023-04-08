@@ -3,776 +3,1085 @@
     "id": 301,
     "name": "夜战",
     "description": "夜战",
-    "icon": "/images/skill/0301.gif"
-  }, {
+    "icon": "/images/skill/0301.gif",
+    "rate": 1
+  },
+  {
     "id": 302,
     "name": "反击",
     "description": "反击",
-    "icon": "/images/skill/0302.gif"
-  }, {
+    "icon": "/images/skill/0302.gif",
+    "rate": 1
+  },
+  {
     "id": 303,
     "name": "反震",
     "description": "反震",
-    "icon": "/images/skill/0303.gif"
-  }, {
+    "icon": "/images/skill/0303.gif",
+    "rate": 1
+  },
+  {
     "id": 304,
     "name": "吸血",
     "description": "吸血",
-    "icon": "/images/skill/0304.gif"
-  }, {
+    "icon": "/images/skill/0304.gif",
+    "rate": 1
+  },
+  {
     "id": 305,
     "name": "连击",
     "description": "连击",
-    "icon": "/images/skill/0305.gif"
-  }, {
+    "icon": "/images/skill/0305.gif",
+    "rate": 1
+  },
+  {
     "id": 306,
     "name": "飞行",
     "description": "飞行",
-    "icon": "/images/skill/0306.gif"
-  }, {
+    "icon": "/images/skill/0306.gif",
+    "rate": 1
+  },
+  {
     "id": 307,
     "name": "隐身",
     "description": "隐身",
-    "icon": "/images/skill/0307.gif"
-  }, {
+    "icon": "/images/skill/0307.gif",
+    "rate": 1
+  },
+  {
     "id": 308,
     "name": "感知",
     "description": "感知",
-    "icon": "/images/skill/0308.gif"
-  }, {
+    "icon": "/images/skill/0308.gif",
+    "rate": 1
+  },
+  {
     "id": 309,
     "name": "再生",
     "description": "再生",
-    "icon": "/images/skill/0309.gif"
-  }, {
+    "icon": "/images/skill/0309.gif",
+    "rate": 1
+  },
+  {
     "id": 310,
     "name": "冥思",
     "description": "冥思",
-    "icon": "/images/skill/0310.gif"
-  }, {
+    "icon": "/images/skill/0310.gif",
+    "rate": 1
+  },
+  {
     "id": 311,
     "name": "神佑复生",
     "description": "神佑复生",
-    "icon": "/images/skill/0311.gif"
-  }, {
+    "icon": "/images/skill/0311.gif",
+    "rate": 1
+  },
+  {
     "id": 312,
     "name": "鬼魂术",
     "description": "鬼魂术",
-    "icon": "/images/skill/0312.gif"
-  }, {
+    "icon": "/images/skill/0312.gif",
+    "rate": 1
+  },
+  {
     "id": 313,
     "name": "驱鬼",
     "description": "驱鬼",
-    "icon": "/images/skill/0313.gif"
-  }, {
+    "icon": "/images/skill/0313.gif",
+    "rate": 1
+  },
+  {
     "id": 314,
     "name": "毒",
     "description": "毒",
-    "icon": "/images/skill/0314.gif"
-  }, {
+    "icon": "/images/skill/0314.gif",
+    "rate": 1
+  },
+  {
     "id": 315,
     "name": "慧根",
     "description": "慧根",
-    "icon": "/images/skill/0315.gif"
-  }, {
+    "icon": "/images/skill/0315.gif",
+    "rate": 1
+  },
+  {
     "id": 316,
     "name": "必杀",
     "description": "必杀",
-    "icon": "/images/skill/0316.gif"
-  }, {
+    "icon": "/images/skill/0316.gif",
+    "rate": 1
+  },
+  {
     "id": 317,
     "name": "幸运",
     "description": "幸运",
-    "icon": "/images/skill/0317.gif"
-  }, {
+    "icon": "/images/skill/0317.gif",
+    "rate": 1
+  },
+  {
     "id": 318,
     "name": "精神集中",
     "description": "精神集中",
-    "icon": "/images/skill/0318.gif"
-  }, {
+    "icon": "/images/skill/0318.gif",
+    "rate": 1
+  },
+  {
     "id": 319,
     "name": "神迹",
     "description": "神迹",
-    "icon": "/images/skill/0319.gif"
-  }, {
+    "icon": "/images/skill/0319.gif",
+    "rate": 1
+  },
+  {
     "id": 320,
     "name": "招架",
     "description": "招架",
-    "icon": "/images/skill/0320.gif"
-  }, {
+    "icon": "/images/skill/0320.gif",
+    "rate": 1
+  },
+  {
     "id": 321,
     "name": "永恒",
     "description": "永恒",
-    "icon": "/images/skill/0321.gif"
-  }, {
+    "icon": "/images/skill/0321.gif",
+    "rate": 1
+  },
+  {
     "id": 322,
     "name": "敏捷",
     "description": "敏捷",
-    "icon": "/images/skill/0322.gif"
-  }, {
+    "icon": "/images/skill/0322.gif",
+    "rate": 1
+  },
+  {
     "id": 323,
     "name": "否定信仰",
     "description": "否定信仰",
-    "icon": "/images/skill/0323.gif"
-  }, {
+    "icon": "/images/skill/0323.gif",
+    "rate": 1
+  },
+  {
     "id": 324,
     "name": "魔之心",
     "description": "魔之心",
-    "icon": "/images/skill/0324.gif"
-  }, {
+    "icon": "/images/skill/0324.gif",
+    "rate": 1
+  },
+  {
     "id": 325,
     "name": "偷袭",
     "description": "偷袭",
-    "icon": "/images/skill/0325.gif"
-  }, {
+    "icon": "/images/skill/0325.gif",
+    "rate": 1
+  },
+  {
     "id": 326,
     "name": "雷击",
     "description": "雷击",
-    "icon": "/images/skill/0326.gif"
-  }, {
+    "icon": "/images/skill/0326.gif",
+    "rate": 1
+  },
+  {
     "id": 327,
     "name": "落岩",
     "description": "落岩",
-    "icon": "/images/skill/0327.gif"
-  }, {
+    "icon": "/images/skill/0327.gif",
+    "rate": 1
+  },
+  {
     "id": 328,
     "name": "水攻",
     "description": "水攻",
-    "icon": "/images/skill/0328.gif"
-  }, {
+    "icon": "/images/skill/0328.gif",
+    "rate": 1
+  },
+  {
     "id": 329,
     "name": "烈火",
     "description": "烈火",
-    "icon": "/images/skill/0329.gif"
-  }, {
+    "icon": "/images/skill/0329.gif",
+    "rate": 1
+  },
+  {
     "id": 330,
     "name": "雷属性吸收",
     "description": "雷属性吸收",
-    "icon": "/images/skill/0330.gif"
-  }, {
+    "icon": "/images/skill/0330.gif",
+    "rate": 1
+  },
+  {
     "id": 331,
     "name": "土属性吸收",
     "description": "土属性吸收",
-    "icon": "/images/skill/0331.gif"
-  }, {
+    "icon": "/images/skill/0331.gif",
+    "rate": 1
+  },
+  {
     "id": 332,
     "name": "水属性吸收",
     "description": "水属性吸收",
-    "icon": "/images/skill/0332.gif"
-  }, {
+    "icon": "/images/skill/0332.gif",
+    "rate": 1
+  },
+  {
     "id": 333,
     "name": "火属性吸收",
     "description": "火属性吸收",
-    "icon": "/images/skill/0333.gif"
-  }, {
+    "icon": "/images/skill/0333.gif",
+    "rate": 1
+  },
+  {
     "id": 334,
     "name": "强力",
     "description": "强力",
-    "icon": "/images/skill/0334.gif"
-  }, {
+    "icon": "/images/skill/0334.gif",
+    "rate": 1
+  },
+  {
     "id": 335,
     "name": "防御",
     "description": "防御",
-    "icon": "/images/skill/0335.gif"
-  }, {
+    "icon": "/images/skill/0335.gif",
+    "rate": 1
+  },
+  {
     "id": 336,
     "name": "独行",
     "description": "独行",
-    "icon": "/images/skill/0336.gif"
-  }, {
+    "icon": "/images/skill/0336.gif",
+    "rate": 1
+  },
+  {
     "id": 337,
     "name": "法术反震",
     "description": "法术反震",
-    "icon": "/images/skill/0337.gif"
-  }, {
+    "icon": "/images/skill/0337.gif",
+    "rate": 1
+  },
+  {
     "id": 338,
     "name": "进击必杀",
     "description": "进击必杀",
-    "icon": "/images/skill/0338.gif"
-  }, {
+    "icon": "/images/skill/0338.gif",
+    "rate": 1
+  },
+  {
     "id": 339,
     "name": "进击法爆",
     "description": "进击法爆",
-    "icon": "/images/skill/0339.gif"
-  }, {
+    "icon": "/images/skill/0339.gif",
+    "rate": 1
+  },
+  {
     "id": 343,
     "name": "遗志",
     "description": "遗志",
-    "icon": "/images/skill/0343.gif"
-  }, {
+    "icon": "/images/skill/0343.gif",
+    "rate": 1
+  },
+  {
     "id": 349,
     "name": "茁壮",
     "description": "茁壮",
-    "icon": "/images/skill/0349.gif"
-  }, {
+    "icon": "/images/skill/0349.gif",
+    "rate": 1
+  },
+  {
     "id": 350,
     "name": "真灵（火）",
     "description": "真灵（火）",
-    "icon": "/images/skill/0350.gif"
-  }, {
+    "icon": "/images/skill/0350.gif",
+    "rate": 1
+  },
+  {
     "id": 351,
     "name": "真灵（水）",
     "description": "真灵（水）",
-    "icon": "/images/skill/0351.gif"
-  }, {
+    "icon": "/images/skill/0351.gif",
+    "rate": 1
+  },
+  {
     "id": 352,
     "name": "真灵（金）",
     "description": "真灵（金）",
-    "icon": "/images/skill/0352.gif"
-  }, {
+    "icon": "/images/skill/0352.gif",
+    "rate": 1
+  },
+  {
     "id": 353,
     "name": "真灵（土）",
     "description": "真灵（土）",
-    "icon": "/images/skill/0353.gif"
-  }, {
+    "icon": "/images/skill/0353.gif",
+    "rate": 1
+  },
+  {
     "id": 354,
     "name": "真灵（木）",
     "description": "真灵（木）",
-    "icon": "/images/skill/0354.gif"
-  }, {
+    "icon": "/images/skill/0354.gif",
+    "rate": 1
+  },
+  {
     "id": 355,
     "name": "健壮（火）",
     "description": "健壮（火）",
-    "icon": "/images/skill/0355.gif"
-  }, {
+    "icon": "/images/skill/0355.gif",
+    "rate": 1
+  },
+  {
     "id": 356,
     "name": "健壮（水）",
     "description": "健壮（水）",
-    "icon": "/images/skill/0356.gif"
-  }, {
+    "icon": "/images/skill/0356.gif",
+    "rate": 1
+  },
+  {
     "id": 357,
     "name": "健壮（金）",
     "description": "健壮（金）",
-    "icon": "/images/skill/0357.gif"
-  }, {
+    "icon": "/images/skill/0357.gif",
+    "rate": 1
+  },
+  {
     "id": 358,
     "name": "健壮（土）",
     "description": "健壮（土）",
-    "icon": "/images/skill/0358.gif"
-  }, {
+    "icon": "/images/skill/0358.gif",
+    "rate": 1
+  },
+  {
     "id": 359,
     "name": "健壮（木）",
     "description": "健壮（木）",
-    "icon": "/images/skill/0359.gif"
-  }, {
+    "icon": "/images/skill/0359.gif",
+    "rate": 1
+  },
+  {
     "id": 401,
     "name": "高级夜战",
     "description": "高级夜战",
-    "icon": "/images/skill/0401.gif"
-  }, {
+    "icon": "/images/skill/0401.gif",
+    "rate": 1
+  },
+  {
     "id": 402,
     "name": "高级反击",
     "description": "高级反击",
-    "icon": "/images/skill/0402.gif"
-  }, {
+    "icon": "/images/skill/0402.gif",
+    "rate": 1
+  },
+  {
     "id": 403,
     "name": "高级反震",
     "description": "高级反震",
-    "icon": "/images/skill/0403.gif"
-  }, {
+    "icon": "/images/skill/0403.gif",
+    "rate": 1
+  },
+  {
     "id": 404,
     "name": "高级吸血",
     "description": "高级吸血",
-    "icon": "/images/skill/0404.gif"
-  }, {
+    "icon": "/images/skill/0404.gif",
+    "rate": 1
+  },
+  {
     "id": 405,
     "name": "高级连击",
     "description": "高级连击",
-    "icon": "/images/skill/0405.gif"
-  }, {
+    "icon": "/images/skill/0405.gif",
+    "rate": 1
+  },
+  {
     "id": 406,
     "name": "高级飞行",
     "description": "高级飞行",
-    "icon": "/images/skill/0406.gif"
-  }, {
+    "icon": "/images/skill/0406.gif",
+    "rate": 1
+  },
+  {
     "id": 407,
     "name": "高级隐身",
     "description": "高级隐身",
-    "icon": "/images/skill/0407.gif"
-  }, {
+    "icon": "/images/skill/0407.gif",
+    "rate": 1
+  },
+  {
     "id": 408,
     "name": "高级感知",
     "description": "高级感知",
-    "icon": "/images/skill/0408.gif"
-  }, {
+    "icon": "/images/skill/0408.gif",
+    "rate": 1
+  },
+  {
     "id": 409,
     "name": "高级再生",
     "description": "高级再生",
-    "icon": "/images/skill/0409.gif"
-  }, {
+    "icon": "/images/skill/0409.gif",
+    "rate": 1
+  },
+  {
     "id": 410,
     "name": "高级冥思",
     "description": "高级冥思",
-    "icon": "/images/skill/0410.gif"
-  }, {
+    "icon": "/images/skill/0410.gif",
+    "rate": 1
+  },
+  {
     "id": 411,
     "name": "高级神佑复生",
     "description": "高级神佑复生",
-    "icon": "/images/skill/0411.gif"
-  }, {
+    "icon": "/images/skill/0411.gif",
+    "rate": 1
+  },
+  {
     "id": 412,
     "name": "高级鬼魂术",
     "description": "高级鬼魂术",
-    "icon": "/images/skill/0412.gif"
-  }, {
+    "icon": "/images/skill/0412.gif",
+    "rate": 1
+  },
+  {
     "id": 413,
     "name": "高级驱鬼",
     "description": "高级驱鬼",
-    "icon": "/images/skill/0413.gif"
-  }, {
+    "icon": "/images/skill/0413.gif",
+    "rate": 1
+  },
+  {
     "id": 414,
     "name": "高级毒",
     "description": "高级毒",
-    "icon": "/images/skill/0414.gif"
-  }, {
+    "icon": "/images/skill/0414.gif",
+    "rate": 1
+  },
+  {
     "id": 415,
     "name": "高级慧根",
     "description": "高级慧根",
-    "icon": "/images/skill/0415.gif"
-  }, {
+    "icon": "/images/skill/0415.gif",
+    "rate": 1
+  },
+  {
     "id": 416,
     "name": "高级必杀",
     "description": "高级必杀",
-    "icon": "/images/skill/0416.gif"
-  }, {
+    "icon": "/images/skill/0416.gif",
+    "rate": 1
+  },
+  {
     "id": 417,
     "name": "高级幸运",
     "description": "高级幸运",
-    "icon": "/images/skill/0417.gif"
-  }, {
+    "icon": "/images/skill/0417.gif",
+    "rate": 1
+  },
+  {
     "id": 418,
     "name": "高级精神集中",
     "description": "高级精神集中",
-    "icon": "/images/skill/0418.gif"
-  }, {
+    "icon": "/images/skill/0418.gif",
+    "rate": 1
+  },
+  {
     "id": 419,
     "name": "高级神迹",
     "description": "高级神迹",
-    "icon": "/images/skill/0419.gif"
-  }, {
+    "icon": "/images/skill/0419.gif",
+    "rate": 1
+  },
+  {
     "id": 420,
     "name": "高级招架",
     "description": "高级招架",
-    "icon": "/images/skill/0420.gif"
-  }, {
+    "icon": "/images/skill/0420.gif",
+    "rate": 1
+  },
+  {
     "id": 421,
     "name": "高级永恒",
     "description": "高级永恒",
-    "icon": "/images/skill/0421.gif"
-  }, {
+    "icon": "/images/skill/0421.gif",
+    "rate": 1
+  },
+  {
     "id": 422,
     "name": "高级敏捷",
     "description": "高级敏捷",
-    "icon": "/images/skill/0422.gif"
-  }, {
+    "icon": "/images/skill/0422.gif",
+    "rate": 1
+  },
+  {
     "id": 423,
     "name": "高级否定信仰",
     "description": "高级否定信仰",
-    "icon": "/images/skill/0423.gif"
-  }, {
+    "icon": "/images/skill/0423.gif",
+    "rate": 1
+  },
+  {
     "id": 424,
     "name": "高级魔之心",
     "description": "高级魔之心",
-    "icon": "/images/skill/0424.gif"
-  }, {
+    "icon": "/images/skill/0424.gif",
+    "rate": 1
+  },
+  {
     "id": 425,
     "name": "高级偷袭",
     "description": "高级偷袭",
-    "icon": "/images/skill/0425.gif"
-  }, {
+    "icon": "/images/skill/0425.gif",
+    "rate": 1
+  },
+  {
     "id": 426,
     "name": "奔雷咒",
     "description": "奔雷咒",
-    "icon": "/images/skill/0426.gif"
-  }, {
+    "icon": "/images/skill/0426.gif",
+    "rate": 1
+  },
+  {
     "id": 427,
     "name": "泰山压顶",
     "description": "泰山压顶",
-    "icon": "/images/skill/0427.gif"
-  }, {
+    "icon": "/images/skill/0427.gif",
+    "rate": 1
+  },
+  {
     "id": 428,
     "name": "水漫金山",
     "description": "水漫金山",
-    "icon": "/images/skill/0428.gif"
-  }, {
+    "icon": "/images/skill/0428.gif",
+    "rate": 1
+  },
+  {
     "id": 429,
     "name": "地狱烈火",
     "description": "地狱烈火",
-    "icon": "/images/skill/0429.gif"
-  }, {
+    "icon": "/images/skill/0429.gif",
+    "rate": 1
+  },
+  {
     "id": 430,
     "name": "高级雷属性吸收",
     "description": "高级雷属性吸收",
-    "icon": "/images/skill/0430.gif"
-  }, {
+    "icon": "/images/skill/0430.gif",
+    "rate": 1
+  },
+  {
     "id": 431,
     "name": "高级土属性吸收",
     "description": "高级土属性吸收",
-    "icon": "/images/skill/0431.gif"
-  }, {
+    "icon": "/images/skill/0431.gif",
+    "rate": 1
+  },
+  {
     "id": 432,
     "name": "高级水属性吸收",
     "description": "高级水属性吸收",
-    "icon": "/images/skill/0432.gif"
-  }, {
+    "icon": "/images/skill/0432.gif",
+    "rate": 1
+  },
+  {
     "id": 433,
     "name": "高级火属性吸收",
     "description": "高级火属性吸收",
-    "icon": "/images/skill/0433.gif"
-  }, {
+    "icon": "/images/skill/0433.gif",
+    "rate": 1
+  },
+  {
     "id": 434,
     "name": "高级强力",
     "description": "高级强力",
-    "icon": "/images/skill/0434.gif"
-  }, {
+    "icon": "/images/skill/0434.gif",
+    "rate": 1
+  },
+  {
     "id": 435,
     "name": "高级防御",
     "description": "高级防御",
-    "icon": "/images/skill/0435.gif"
-  }, {
+    "icon": "/images/skill/0435.gif",
+    "rate": 1
+  },
+  {
     "id": 436,
     "name": "高级独行",
     "description": "高级独行",
-    "icon": "/images/skill/0436.gif"
-  }, {
+    "icon": "/images/skill/0436.gif",
+    "rate": 1
+  },
+  {
     "id": 437,
     "name": "高级法术反震",
     "description": "高级法术反震",
-    "icon": "/images/skill/0437.gif"
-  }, {
+    "icon": "/images/skill/0437.gif",
+    "rate": 1
+  },
+  {
     "id": 438,
     "name": "高级进击必杀",
     "description": "高级进击必杀",
-    "icon": "/images/skill/0438.gif"
-  }, {
+    "icon": "/images/skill/0438.gif",
+    "rate": 1
+  },
+  {
     "id": 439,
     "name": "高级进击法爆",
     "description": "高级进击法爆",
-    "icon": "/images/skill/0439.gif"
-  }, {
+    "icon": "/images/skill/0439.gif",
+    "rate": 1
+  },
+  {
     "id": 440,
     "name": "关照万象",
     "description": "关照万象",
-    "icon": "/images/skill/0440.gif"
-  }, {
+    "icon": "/images/skill/0440.gif",
+    "rate": 1
+  },
+  {
     "id": 441,
     "name": "出其不意",
     "description": "出其不意",
-    "icon": "/images/skill/0441.gif"
-  }, {
+    "icon": "/images/skill/0441.gif",
+    "rate": 0.8
+  },
+  {
     "id": 442,
     "name": "势如破竹",
     "description": "势如破竹",
-    "icon": "/images/skill/0442.gif"
-  }, {
+    "icon": "/images/skill/0442.gif",
+    "rate": 1
+  },
+  {
     "id": 443,
     "name": "高级遗志",
     "description": "高级遗志",
-    "icon": "/images/skill/0443.gif"
-  }, {
+    "icon": "/images/skill/0443.gif",
+    "rate": 1
+  },
+  {
     "id": 444,
     "name": "无赦魔诀",
     "description": "无赦魔诀",
-    "icon": "/images/skill/0444.gif"
-  }, {
+    "icon": "/images/skill/0444.gif",
+    "rate": 1
+  },
+  {
     "id": 445,
     "name": "风起龙游",
     "description": "风起龙游",
-    "icon": "/images/skill/0445.gif"
-  }, {
+    "icon": "/images/skill/0445.gif",
+    "rate": 1
+  },
+  {
     "id": 446,
     "name": "薪火相传",
     "description": "薪火相传",
-    "icon": "/images/skill/0446.gif"
-  }, {
+    "icon": "/images/skill/0446.gif",
+    "rate": 1
+  },
+  {
     "id": 447,
     "name": "招财进宝",
     "description": "招财进宝",
-    "icon": "/images/skill/0447.gif"
-  }, {
+    "icon": "/images/skill/0447.gif",
+    "rate": 1
+  },
+  {
     "id": 448,
     "name": "洞察",
     "description": "洞察",
-    "icon": "/images/skill/0448.gif"
-  }, {
+    "icon": "/images/skill/0448.gif",
+    "rate": 1
+  },
+  {
     "id": 449,
     "name": "欣欣向荣",
     "description": "欣欣向荣",
-    "icon": "/images/skill/0449.gif"
-  }, {
+    "icon": "/images/skill/0449.gif",
+    "rate": 1
+  },
+  {
     "id": 450,
     "name": "万物之灵（火）",
     "description": "万物之灵（火）",
-    "icon": "/images/skill/0450.gif"
-  }, {
+    "icon": "/images/skill/0450.gif",
+    "rate": 1
+  },
+  {
     "id": 451,
     "name": "万物之灵（水）",
     "description": "万物之灵（水）",
-    "icon": "/images/skill/0451.gif"
-  }, {
+    "icon": "/images/skill/0451.gif",
+    "rate": 1
+  },
+  {
     "id": 452,
     "name": "万物之灵（金）",
     "description": "万物之灵（金）",
-    "icon": "/images/skill/0452.gif"
-  }, {
+    "icon": "/images/skill/0452.gif",
+    "rate": 1
+  },
+  {
     "id": 453,
     "name": "万物之灵（土）",
     "description": "万物之灵（土）",
-    "icon": "/images/skill/0453.gif"
-  }, {
+    "icon": "/images/skill/0453.gif",
+    "rate": 1
+  },
+  {
     "id": 454,
     "name": "万物之灵（木）",
     "description": "万物之灵（木）",
-    "icon": "/images/skill/0454.gif"
-  }, {
+    "icon": "/images/skill/0454.gif",
+    "rate": 1
+  },
+  {
     "id": 455,
     "name": "力大无穷（火）",
     "description": "力大无穷（火）",
-    "icon": "/images/skill/0455.gif"
-  }, {
+    "icon": "/images/skill/0455.gif",
+    "rate": 1
+  },
+  {
     "id": 456,
     "name": "力大无穷（水）",
     "description": "力大无穷（水）",
-    "icon": "/images/skill/0456.gif"
-  }, {
+    "icon": "/images/skill/0456.gif",
+    "rate": 1
+  },
+  {
     "id": 457,
     "name": "力大无穷（金）",
     "description": "力大无穷（金）",
-    "icon": "/images/skill/0457.gif"
-  }, {
+    "icon": "/images/skill/0457.gif",
+    "rate": 1
+  },
+  {
     "id": 458,
     "name": "力大无穷（土）",
     "description": "力大无穷（土）",
-    "icon": "/images/skill/0458.gif"
-  }, {
+    "icon": "/images/skill/0458.gif",
+    "rate": 1
+  },
+  {
     "id": 459,
     "name": "力大无穷（木）",
     "description": "力大无穷（木）",
-    "icon": "/images/skill/0459.gif"
-  }, {
+    "icon": "/images/skill/0459.gif",
+    "rate": 1
+  },
+  {
     "id": 460,
     "name": "花好月圆",
     "description": "花好月圆",
-    "icon": "/images/skill/0460.gif"
-  }, {
+    "icon": "/images/skill/0460.gif",
+    "rate": 1
+  },
+  {
     "id": 461,
     "name": "天狐之舞",
     "description": "天狐之舞",
-    "icon": "/images/skill/0461.gif"
-  }, {
+    "icon": "/images/skill/0461.gif",
+    "rate": 1
+  },
+  {
     "id": 462,
     "name": "出奇制胜",
     "description": "出奇制胜",
-    "icon": "/images/skill/0462.gif"
-  }, {
+    "icon": "/images/skill/0462.gif",
+    "rate": 1
+  },
+  {
     "id": 484,
     "name": "雨露之泽",
     "description": "雨露之泽",
-    "icon": "/images/skill/0484.gif"
-  }, {
+    "icon": "/images/skill/0484.gif",
+    "rate": 1
+  },
+  {
     "id": 485,
     "name": "风沙之盾",
     "description": "风沙之盾",
-    "icon": "/images/skill/0485.gif"
-  }, {
+    "icon": "/images/skill/0485.gif",
+    "rate": 1
+  },
+  {
     "id": 486,
     "name": "清风之华",
     "description": "清风之华",
-    "icon": "/images/skill/0486.gif"
-  }, {
+    "icon": "/images/skill/0486.gif",
+    "rate": 1
+  },
+  {
     "id": 487,
     "name": "映雪棱镜",
     "description": "映雪棱镜",
-    "icon": "/images/skill/0487.gif"
-  }, {
+    "icon": "/images/skill/0487.gif",
+    "rate": 1
+  },
+  {
     "id": 501,
     "name": "弱点雷",
     "description": "弱点雷",
-    "icon": "/images/skill/0501.gif"
-  }, {
+    "icon": "/images/skill/0501.gif",
+    "rate": 1
+  },
+  {
     "id": 502,
     "name": "弱点土",
     "description": "弱点土",
-    "icon": "/images/skill/0502.gif"
-  }, {
+    "icon": "/images/skill/0502.gif",
+    "rate": 1
+  },
+  {
     "id": 503,
     "name": "弱点水",
     "description": "弱点水",
-    "icon": "/images/skill/0503.gif"
-  }, {
+    "icon": "/images/skill/0503.gif",
+    "rate": 1
+  },
+  {
     "id": 504,
     "name": "弱点火",
     "description": "弱点火",
-    "icon": "/images/skill/0504.gif"
-  }, {
+    "icon": "/images/skill/0504.gif",
+    "rate": 1
+  },
+  {
     "id": 505,
     "name": "迟钝",
     "description": "迟钝",
-    "icon": "/images/skill/0505.gif"
-  }, {
+    "icon": "/images/skill/0505.gif",
+    "rate": 1
+  },
+  {
     "id": 510,
     "name": "法术连击",
     "description": "法术连击",
-    "icon": "/images/skill/0510.gif"
-  }, {
+    "icon": "/images/skill/0510.gif",
+    "rate": 1
+  },
+  {
     "id": 551,
     "name": "惊心一剑",
     "description": "惊心一剑",
-    "icon": "/images/skill/0551.gif"
-  }, {
+    "icon": "/images/skill/0551.gif",
+    "rate": 1
+  },
+  {
     "id": 552,
     "name": "死亡召唤",
     "description": "死亡召唤",
-    "icon": "/images/skill/0552.gif"
-  }, {
+    "icon": "/images/skill/0552.gif",
+    "rate": 1
+  },
+  {
     "id": 553,
     "name": "上古灵符",
     "description": "上古灵符",
-    "icon": "/images/skill/0553.gif"
-  }, {
+    "icon": "/images/skill/0553.gif",
+    "rate": 1
+  },
+  {
     "id": 554,
     "name": "善恶有报",
     "description": "善恶有报",
-    "icon": "/images/skill/0554.gif"
-  }, {
+    "icon": "/images/skill/0554.gif",
+    "rate": 0.2
+  },
+  {
     "id": 571,
     "name": "力劈华山",
     "description": "力劈华山",
-    "icon": "/images/skill/0571.gif"
-  }, {
+    "icon": "/images/skill/0571.gif",
+    "rate": 1
+  },
+  {
     "id": 572,
     "name": "夜舞倾城",
     "description": "夜舞倾城",
-    "icon": "/images/skill/0572.gif"
-  }, {
+    "icon": "/images/skill/0572.gif",
+    "rate": 1
+  },
+  {
     "id": 573,
     "name": "高级法术连击",
     "description": "高级法术连击",
-    "icon": "/images/skill/0573.gif"
-  }, {
+    "icon": "/images/skill/0573.gif",
+    "rate": 1
+  },
+  {
     "id": 575,
     "name": "法术暴击",
     "description": "法术暴击",
-    "icon": "/images/skill/0575.gif"
-  }, {
+    "icon": "/images/skill/0575.gif",
+    "rate": 1
+  },
+  {
     "id": 576,
     "name": "法术波动",
     "description": "法术波动",
-    "icon": "/images/skill/0576.gif"
-  }, {
+    "icon": "/images/skill/0576.gif",
+    "rate": 1
+  },
+  {
     "id": 577,
     "name": "高级法术暴击",
     "description": "高级法术暴击",
-    "icon": "/images/skill/0577.gif"
-  }, {
+    "icon": "/images/skill/0577.gif",
+    "rate": 1
+  },
+  {
     "id": 578,
     "name": "高级法术波动",
     "description": "高级法术波动",
-    "icon": "/images/skill/0578.gif"
-  }, {
+    "icon": "/images/skill/0578.gif",
+    "rate": 1
+  },
+  {
     "id": 579,
     "name": "法术防御",
     "description": "法术防御",
-    "icon": "/images/skill/0579.gif"
-  }, {
+    "icon": "/images/skill/0579.gif",
+    "rate": 1
+  },
+  {
     "id": 595,
     "name": "壁垒击破",
     "description": "壁垒击破",
-    "icon": "/images/skill/0595.gif"
-  }, {
+    "icon": "/images/skill/0595.gif",
+    "rate": 1
+  },
+  {
     "id": 596,
     "name": "嗜血追击",
     "description": "嗜血追击",
-    "icon": "/images/skill/0596.gif"
-  }, {
+    "icon": "/images/skill/0596.gif",
+    "rate": 1
+  },
+  {
     "id": 597,
     "name": "剑荡四方",
     "description": "剑荡四方",
-    "icon": "/images/skill/0597.gif"
-  }, {
+    "icon": "/images/skill/0597.gif",
+    "rate": 1
+  },
+  {
     "id": 598,
     "name": "移花接木",
     "description": "移花接木",
-    "icon": "/images/skill/0598.gif"
-  }, {
+    "icon": "/images/skill/0598.gif",
+    "rate": 1
+  },
+  {
     "id": 624,
     "name": "龙魂",
     "description": "龙魂",
-    "icon": "/images/skill/0624.gif"
-  }, {
+    "icon": "/images/skill/0624.gif",
+    "rate": 1
+  },
+  {
     "id": 626,
     "name": "法术抵抗",
     "description": "法术抵抗",
-    "icon": "/images/skill/0626.gif"
-  }, {
+    "icon": "/images/skill/0626.gif",
+    "rate": 1
+  },
+  {
     "id": 627,
     "name": "高级法术抵抗",
     "description": "高级法术抵抗",
-    "icon": "/images/skill/0627.gif"
-  }, {
+    "icon": "/images/skill/0627.gif",
+    "rate": 1
+  },
+  {
     "id": 628,
     "name": "盾气",
     "description": "盾气",
-    "icon": "/images/skill/0628.gif"
-  }, {
+    "icon": "/images/skill/0628.gif",
+    "rate": 1
+  },
+  {
     "id": 629,
     "name": "高级盾气",
     "description": "高级盾气",
-    "icon": "/images/skill/0629.gif"
-  }, {
+    "icon": "/images/skill/0629.gif",
+    "rate": 1
+  },
+  {
     "id": 638,
     "name": "法力陷阱",
     "description": "法力陷阱",
-    "icon": "/images/skill/0638.gif"
-  }, {
+    "icon": "/images/skill/0638.gif",
+    "rate": 1
+  },
+  {
     "id": 639,
     "name": "灵力激发",
     "description": "灵力激发",
-    "icon": "/images/skill/0639.gif"
-  }, {
+    "icon": "/images/skill/0639.gif",
+    "rate": 1
+  },
+  {
     "id": 640,
     "name": "合纵",
     "description": "合纵",
-    "icon": "/images/skill/0640.gif"
-  }, {
+    "icon": "/images/skill/0640.gif",
+    "rate": 1
+  },
+  {
     "id": 641,
     "name": "高级合纵",
     "description": "高级合纵",
-    "icon": "/images/skill/0641.gif"
-  }, {
+    "icon": "/images/skill/0641.gif",
+    "rate": 1
+  },
+  {
     "id": 650,
     "name": "苍鸾怒击",
     "description": "苍鸾怒击",
-    "icon": "/images/skill/0650.gif"
-  }, {
+    "icon": "/images/skill/0650.gif",
+    "rate": 1
+  },
+  {
     "id": 660,
     "name": "神马浮云",
     "description": "神马浮云",
-    "icon": "/images/skill/0660.gif"
-  }, {
+    "icon": "/images/skill/0660.gif",
+    "rate": 1
+  },
+  {
     "id": 661,
     "name": "须弥真言",
     "description": "须弥真言",
-    "icon": "/images/skill/0661.gif"
-  }, {
+    "icon": "/images/skill/0661.gif",
+    "rate": 0.6
+  },
+  {
     "id": 671,
     "name": "无畏布施",
     "description": "无畏布施",
-    "icon": "/images/skill/0671.gif"
-  }, {
+    "icon": "/images/skill/0671.gif",
+    "rate": 1
+  },
+  {
     "id": 673,
     "name": "灵山禅语",
     "description": "灵山禅语",
-    "icon": "/images/skill/0673.gif"
-  }, {
+    "icon": "/images/skill/0673.gif",
+    "rate": 1
+  },
+  {
     "id": 689,
     "name": "净台妙谛",
     "description": "净台妙谛",
-    "icon": "/images/skill/0689.gif"
-  }, {
+    "icon": "/images/skill/0689.gif",
+    "rate": 1
+  },
+  {
     "id": 690,
     "name": "凝光炼彩",
     "description": "凝光炼彩",
-    "icon": "/images/skill/0690.gif"
+    "icon": "/images/skill/0690.gif",
+    "rate": 1
   }
 ]

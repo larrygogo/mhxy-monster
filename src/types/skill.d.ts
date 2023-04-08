@@ -3,4 +3,5 @@ interface Skill {
   name: string;
   icon: string;
   description: string;
+  rate: number;
 }
