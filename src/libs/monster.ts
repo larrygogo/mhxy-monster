@@ -11,8 +11,9 @@ import {
   MUTEX_SKILLS,
   SKILL_SORT, MIX_MONSTER_SKILL_NUM_RATE,
 } from '../config/constant';
+import {MSTID_DAHAIGUI, MSTID_PAOPAO} from "@/src/config/monster_constant";
 
-export const initMonster = (id: number) => {
+export const initMonster = (id: string) => {
   const monster = monsterData.find((m) => m.id === id) as MonsterInintail;
 
   const requiredSkills = shuffle(monster.requiredSkills);
@@ -38,7 +39,7 @@ export const initMonster = (id: number) => {
 }
 
 // 初始化一个指定技能的怪物
-export const initMonsterWithSkill = (id: number, skills: number[] = [], init: boolean = false) => {
+export const initMonsterWithSkill = (id: string, skills: number[] = [], init: boolean = false) => {
   const monster = initMonster(id);
   return {
     ...monster,
@@ -48,7 +49,7 @@ export const initMonsterWithSkill = (id: number, skills: number[] = [], init: bo
 
 export const mixMonster = (monsters: [Monster, Monster]) => {
   if (getRateTrue(MIX_MONSTER_NOT_PARTICIPATE_RATE)) {
-    return getRateTrue(MIX_MONSTER_TURTLE_RATE) ? initMonster(1) : initMonster(6);
+    return getRateTrue(MIX_MONSTER_TURTLE_RATE) ? initMonster(MSTID_DAHAIGUI) : initMonster(MSTID_PAOPAO);
   }
 
   const m1 = monsters[0];
@@ -62,7 +63,7 @@ export const mixMonster = (monsters: [Monster, Monster]) => {
 
   const allSkills = filterMutexSkills([...m1.skills, ...m2.skills, ...requiredSkills]);
 
-  const getRateSkillCount = (skills: number[]) => {
+  const getRateSkillCount = (skills: string[]) => {
     const level = getRateLevel(MIX_MONSTER_SKILL_NUM_RATE)
     return Math.round(skills.length * level);
   }
@@ -87,7 +88,7 @@ export const mixMonster = (monsters: [Monster, Monster]) => {
 }
 
 // 根据SKILL_SORT排序
-export const sortSkills = (skills: number[]) => {
+export const sortSkills = (skills: string[]) => {
   return skills.sort((a, b) => {
     const aIndex = SKILL_SORT.findIndex((s) => s === a);
     const bIndex = SKILL_SORT.findIndex((s) => s === b);
@@ -96,9 +97,9 @@ export const sortSkills = (skills: number[]) => {
 }
 
 // 过滤所有互斥技能
-export const filterMutexSkills = (skills: number[]) => {
+export const filterMutexSkills = (skills: string[]) => {
   const mutexSkills = MUTEX_SKILLS.map((s) => s.sort((a, b) => a - b));
-  const skillsSort = skills.sort((a, b) => a - b);
+  const skillsSort = skills.sort((a, b) => Number(a) - Number(b));
   const skillsSet = new Set(skillsSort);
   const mutexSkillsSet = new Set(mutexSkills.map((s) => s.join(',')));
   for (let i = 0; i < skillsSort.length; i++) {

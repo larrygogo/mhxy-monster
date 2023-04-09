@@ -1,5 +1,5 @@
 interface Skill {
-  id: number;
+  id: string;
   name: string;
   icon: string;
   description: string;

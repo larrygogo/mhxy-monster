@@ -1,1087 +1,2921 @@
 [
   {
-    "id": 301,
+    "id": "301",
     "name": "夜战",
-    "description": "夜战",
-    "icon": "/images/skill/0301.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G夜间物理伤害效果不会减少；#r#W（无夜战者夜间物理伤害效果将减少20%）",
+    "icon": "/images/skill/0301.gif"
   },
   {
-    "id": 302,
+    "id": "302",
     "name": "反击",
-    "description": "反击",
-    "icon": "/images/skill/0302.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G受物理攻击后：30%几率用物理攻击反击；#r#R但反击只有50%的伤害效果；",
+    "icon": "/images/skill/0302.gif"
   },
   {
-    "id": 303,
+    "id": "303",
     "name": "反震",
-    "description": "反震",
-    "icon": "/images/skill/0303.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G受到物理攻击时：30%反震对方，反震伤害为你所受伤害的25%；#r避免被敌人连击",
+    "icon": "/images/skill/0303.gif"
   },
   {
-    "id": 304,
+    "id": "304",
     "name": "吸血",
-    "description": "吸血",
-    "icon": "/images/skill/0304.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G物理攻击时：获得对方损失气血的25%；#r#W(攻击有鬼魂术的敌人无法吸血)#r#R若攻击异常状态之敌，吸血后将中毒；",
+    "icon": "/images/skill/0304.gif"
   },
   {
-    "id": 305,
+    "id": "305",
     "name": "连击",
-    "description": "连击",
-    "icon": "/images/skill/0305.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G普通攻击时：45%几率攻击2次；#r#W（无法连击有反震的敌人）#r#R物理伤害效果降低25%",
+    "icon": "/images/skill/0305.gif"
   },
   {
-    "id": 306,
+    "id": "306",
     "name": "飞行",
-    "description": "飞行",
-    "icon": "/images/skill/0306.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G物理攻击命中几率增加20%；#r物理躲避能力提高20%；#r物理躲避率提高5%；",
+    "icon": "/images/skill/0306.gif"
   },
   {
-    "id": 307,
+    "id": "307",
     "name": "隐身",
-    "description": "隐身",
-    "icon": "/images/skill/0307.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G进入战斗后，获得修罗隐身状态2~3回合；#r隐身时不会被攻击；#r#R物理攻击能力降低20%；隐身时不能施法；",
+    "icon": "/images/skill/0307.gif"
   },
   {
-    "id": 308,
+    "id": "308",
     "name": "感知",
-    "description": "感知",
-    "icon": "/images/skill/0308.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G可攻击修罗隐身、楚楚可怜状态之敌；",
+    "icon": "/images/skill/0308.gif"
   },
   {
-    "id": 309,
+    "id": "309",
     "name": "再生",
-    "description": "再生",
-    "icon": "/images/skill/0309.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G每回合恢复自身等级/2的气血；",
+    "icon": "/images/skill/0309.gif"
   },
   {
-    "id": 310,
+    "id": "310",
     "name": "冥思",
-    "description": "冥思",
-    "icon": "/images/skill/0310.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G每回合恢复自身等级/4的魔法",
+    "icon": "/images/skill/0310.gif"
   },
   {
-    "id": 311,
+    "id": "311",
     "name": "神佑复生",
-    "description": "神佑复生",
-    "icon": "/images/skill/0311.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G战斗阵亡时20%几率复活，#r并恢复到60%的气血；#r#W（若有鬼魂术，神佑复生将失效）",
+    "icon": "/images/skill/0311.gif"
   },
   {
-    "id": 312,
+    "id": "312",
     "name": "鬼魂术",
-    "description": "鬼魂术",
-    "icon": "/images/skill/0312.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G阵亡5回合后自动复活；#r#G不受毒封印等异常状态影响；#r#G对有否定信仰之敌，伤害效果增加20%；#r#R不能使用包子以外的药品食物恢复气血；",
+    "icon": "/images/skill/0312.gif"
   },
   {
-    "id": 313,
+    "id": "313",
     "name": "驱鬼",
-    "description": "驱鬼",
-    "icon": "/images/skill/0313.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G对有鬼魂术之敌，物理及法术伤害效果增加50%；#r可将鬼魂术之敌击飞，使其不能复活；",
+    "icon": "/images/skill/0313.gif"
   },
   {
-    "id": 314,
+    "id": "314",
     "name": "毒",
-    "description": "毒",
-    "icon": "/images/skill/0314.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G物理攻击后：15%几率使敌人中毒；#r#W(中毒者，每回合减少10%气血和5%魔法)",
+    "icon": "/images/skill/0314.gif"
   },
   {
-    "id": 315,
+    "id": "315",
     "name": "慧根",
-    "description": "慧根",
-    "icon": "/images/skill/0315.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G使用法术时所消耗的魔法降低为正常的75%",
+    "icon": "/images/skill/0315.gif"
   },
   {
-    "id": 316,
+    "id": "316",
     "name": "必杀",
-    "description": "必杀",
-    "icon": "/images/skill/0316.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G物理攻击的必杀几率增加10%；#r#W(必杀时伤害效果将加倍)",
+    "icon": "/images/skill/0316.gif"
   },
   {
-    "id": 317,
+    "id": "317",
     "name": "幸运",
-    "description": "幸运",
-    "icon": "/images/skill/0317.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G受到的物理/法术伤害暴击倍率降低25%；",
+    "icon": "/images/skill/0317.gif"
   },
   {
-    "id": 318,
+    "id": "318",
     "name": "精神集中",
-    "description": "精神集中",
-    "icon": "/images/skill/0318.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G抵御封印法术！#r#R物理攻击效果降低20%；",
+    "icon": "/images/skill/0318.gif"
   },
   {
-    "id": 319,
+    "id": "319",
     "name": "神迹",
-    "description": "神迹",
-    "icon": "/images/skill/0319.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G回合结束时解除一切异常状态；",
+    "icon": "/images/skill/0319.gif"
   },
   {
-    "id": 320,
+    "id": "320",
     "name": "招架",
-    "description": "招架",
-    "icon": "/images/skill/0320.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G每回合受到的第1次物理伤害结果减免10%；",
+    "icon": "/images/skill/0320.gif"
   },
   {
-    "id": 321,
+    "id": "321",
     "name": "永恒",
-    "description": "永恒",
-    "icon": "/images/skill/0321.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G受到辅助类法术时，增加50%持续回合数，且增加的回合数不会超过3回合；",
+    "icon": "/images/skill/0321.gif"
   },
   {
-    "id": 322,
+    "id": "322",
     "name": "敏捷",
-    "description": "敏捷",
-    "icon": "/images/skill/0322.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G速度增加10%；",
+    "icon": "/images/skill/0322.gif"
   },
   {
-    "id": 323,
+    "id": "323",
     "name": "否定信仰",
-    "description": "否定信仰",
-    "icon": "/images/skill/0323.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G避免敌人毒封印等异常状态影响；#r#R不能获得辅助类法术效果；#r#R被鬼魂术之敌攻击，多承受20%伤害；#r#R不能同时拥有部分技能；",
+    "icon": "/images/skill/0323.gif"
   },
   {
-    "id": 324,
+    "id": "324",
     "name": "魔之心",
-    "description": "魔之心",
-    "icon": "/images/skill/0324.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G法术伤害效果提高10%；",
+    "icon": "/images/skill/0324.gif"
   },
   {
-    "id": 325,
+    "id": "325",
     "name": "偷袭",
-    "description": "偷袭",
-    "icon": "/images/skill/0325.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G避免被敌人反击；#r#G避免被敌人反震；#r#G物理伤害效果增加5%；#r",
+    "icon": "/images/skill/0325.gif"
   },
   {
-    "id": 326,
+    "id": "326",
     "name": "雷击",
-    "description": "雷击",
-    "icon": "/images/skill/0326.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G发动雷属性法术攻击单个敌人；",
+    "icon": "/images/skill/0326.gif"
   },
   {
-    "id": 327,
+    "id": "327",
     "name": "落岩",
-    "description": "落岩",
-    "icon": "/images/skill/0327.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G发动土属性法术攻击单个敌人；",
+    "icon": "/images/skill/0327.gif"
   },
   {
-    "id": 328,
+    "id": "328",
     "name": "水攻",
-    "description": "水攻",
-    "icon": "/images/skill/0328.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G发动水属性法术攻击单个敌人；",
+    "icon": "/images/skill/0328.gif"
   },
   {
-    "id": 329,
+    "id": "329",
     "name": "烈火",
-    "description": "烈火",
-    "icon": "/images/skill/0329.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G发动火属性法术攻击单个敌人；",
+    "icon": "/images/skill/0329.gif"
   },
   {
-    "id": 330,
+    "id": "330",
     "name": "雷属性吸收",
-    "description": "雷属性吸收",
-    "icon": "/images/skill/0330.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G50%的几率免受雷属性法术伤害，并按应受伤害的大小恢复气血；#r#R受土属性法术伤害效果增加30%",
+    "icon": "/images/skill/0330.gif"
   },
   {
-    "id": 331,
+    "id": "331",
     "name": "土属性吸收",
-    "description": "土属性吸收",
-    "icon": "/images/skill/0331.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G50%的几率免受土属性法术伤害，并按应受伤害的大小恢复气血；#r#R受雷属性法术伤害效果增加30%；",
+    "icon": "/images/skill/0331.gif"
   },
   {
-    "id": 332,
+    "id": "332",
     "name": "水属性吸收",
-    "description": "水属性吸收",
-    "icon": "/images/skill/0332.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G50%的几率免受水属性法术伤害，并按应受伤害的大小恢复气血；#r#R受火属性法术伤害效果增加30%",
+    "icon": "/images/skill/0332.gif"
   },
   {
-    "id": 333,
+    "id": "333",
     "name": "火属性吸收",
-    "description": "火属性吸收",
-    "icon": "/images/skill/0333.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G50%的几率免受火属性法术伤害，并按应受伤害的大小恢复气血；#r#R受水属性法术伤害效果增加30%",
+    "icon": "/images/skill/0333.gif"
   },
   {
-    "id": 334,
+    "id": "334",
     "name": "强力",
-    "description": "强力",
-    "icon": "/images/skill/0334.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G物理攻击能力增加自己等级×0.4；#r攻击有招架的敌人时不会减少伤害结果#r#R对有防御或高级防御者，伤害结果减少20%",
+    "icon": "/images/skill/0334.gif"
   },
   {
-    "id": 335,
+    "id": "335",
     "name": "防御",
-    "description": "防御",
-    "icon": "/images/skill/0335.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G提高自身等级×0.6的防御；#r#R法术伤害能力降低10%",
+    "icon": "/images/skill/0335.gif"
   },
   {
-    "id": 336,
+    "id": "336",
     "name": "独行",
-    "description": "独行",
-    "icon": "/images/skill/0336.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G抵抗封印的能力提高25%；#r#R合击的概率降低50%",
+    "icon": "/images/skill/0336.gif"
   },
   {
-    "id": 337,
+    "id": "337",
     "name": "法术反震",
-    "description": "法术反震",
-    "icon": "/images/skill/0337.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G受到法术攻击时：30%反震对方，反震伤害为你所受伤害的25%；",
+    "icon": "/images/skill/0337.gif"
   },
   {
-    "id": 338,
+    "id": "338",
     "name": "进击必杀",
-    "description": "进击必杀",
-    "icon": "/images/skill/0338.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G第2回合及以后进入战斗时，提升15%的必杀几率#r持续5回合，且逐回合减少20%效果。",
+    "icon": "/images/skill/0338.gif"
   },
   {
-    "id": 339,
-    "name": "进击法爆",
-    "description": "进击法爆",
-    "icon": "/images/skill/0339.gif",
-    "rate": 1
+    "id": "339",
+    "name": "进击法暴",
+    "rate": 1,
+    "description": "#G第2回合及以后进入战斗时，提升10%的法术暴击几率#r持续5回合，且逐回合减少20%效果。",
+    "icon": "/images/skill/0339.gif"
   },
   {
-    "id": 343,
+    "id": "341",
+    "name": "连横",
+    "rate": 1,
+    "description": "#G使用本回合己方召唤兽未使用过的技能时，造成的伤害结果提升5%",
+    "icon": "/images/skill/0341.gif"
+  },
+  {
+    "id": "343",
     "name": "遗志",
-    "description": "遗志",
-    "icon": "/images/skill/0343.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G替代原召唤兽进入战斗时获得“遗志”：造成伤害提升5%；并获得原召唤兽的“遗志”。#r#W（最多两层）",
+    "icon": "/images/skill/0343.gif"
   },
   {
-    "id": 349,
+    "id": "349",
     "name": "茁壮",
-    "description": "茁壮",
-    "icon": "/images/skill/0349.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G提升25%最大生命值，五行为木时生效。#W（无法再触发神佑复生和鬼魂术）",
+    "icon": "/images/skill/0349.gif"
   },
   {
-    "id": 350,
+    "id": "350",
     "name": "真灵（火）",
-    "description": "真灵（火）",
-    "icon": "/images/skill/0350.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身受到的法术伤害降低5%，五行为火时生效。",
+    "icon": "/images/skill/0350.gif"
   },
   {
-    "id": 351,
+    "id": "351",
     "name": "真灵（水）",
-    "description": "真灵（水）",
-    "icon": "/images/skill/0351.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身受到的法术伤害降低5%，五行为水时生效。",
+    "icon": "/images/skill/0351.gif"
   },
   {
-    "id": 352,
+    "id": "352",
     "name": "真灵（金）",
-    "description": "真灵（金）",
-    "icon": "/images/skill/0352.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身受到的法术伤害降低5%，五行为金时生效。",
+    "icon": "/images/skill/0352.gif"
   },
   {
-    "id": 353,
+    "id": "353",
     "name": "真灵（土）",
-    "description": "真灵（土）",
-    "icon": "/images/skill/0353.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身受到的法术伤害降低5%，五行为土时生效。",
+    "icon": "/images/skill/0353.gif"
   },
   {
-    "id": 354,
+    "id": "354",
     "name": "真灵（木）",
-    "description": "真灵（木）",
-    "icon": "/images/skill/0354.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身受到的法术伤害降低5%，五行为木时生效。",
+    "icon": "/images/skill/0354.gif"
   },
   {
-    "id": 355,
+    "id": "355",
     "name": "健壮（火）",
-    "description": "健壮（火）",
-    "icon": "/images/skill/0355.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身受到的物理伤害降低5%，五行为火时生效。",
+    "icon": "/images/skill/0355.gif"
   },
   {
-    "id": 356,
+    "id": "356",
     "name": "健壮（水）",
-    "description": "健壮（水）",
-    "icon": "/images/skill/0356.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身受到的物理伤害降低5%，五行为水时生效。",
+    "icon": "/images/skill/0356.gif"
   },
   {
-    "id": 357,
+    "id": "357",
     "name": "健壮（金）",
-    "description": "健壮（金）",
-    "icon": "/images/skill/0357.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身受到的物理伤害降低5%，五行为金时生效。",
+    "icon": "/images/skill/0357.gif"
   },
   {
-    "id": 358,
+    "id": "358",
     "name": "健壮（土）",
-    "description": "健壮（土）",
-    "icon": "/images/skill/0358.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身受到的物理伤害降低5%，五行为土时生效。",
+    "icon": "/images/skill/0358.gif"
   },
   {
-    "id": 359,
+    "id": "359",
     "name": "健壮（木）",
-    "description": "健壮（木）",
-    "icon": "/images/skill/0359.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身受到的物理伤害降低5%，五行为木时生效。",
+    "icon": "/images/skill/0359.gif"
   },
   {
-    "id": 401,
+    "id": "401",
     "name": "高级夜战",
-    "description": "高级夜战",
-    "icon": "/images/skill/0401.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G夜间物理伤害效果不会减少；#r夜间物理躲避能力增加20%；#r#W（无夜战者夜间物理伤害效果将减少20%）#r#W——我在黑夜中战斗，只为结束这黑夜",
+    "icon": "/images/skill/0401.gif"
   },
   {
-    "id": 402,
+    "id": "402",
     "name": "高级反击",
-    "description": "高级反击",
-    "icon": "/images/skill/0402.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G受物理攻击后：30%几率用物理攻击反击；#r#W——以眼还眼，以牙还牙。",
+    "icon": "/images/skill/0402.gif"
   },
   {
-    "id": 403,
+    "id": "403",
     "name": "高级反震",
-    "description": "高级反震",
-    "icon": "/images/skill/0403.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G受到物理攻击时：30%反震对方，反震伤害为你所受伤害的50%；#r避免被敌人连击；#r#W——让冒犯者付出足够的代价",
+    "icon": "/images/skill/0403.gif"
   },
   {
-    "id": 404,
+    "id": "404",
     "name": "高级吸血",
-    "description": "高级吸血",
-    "icon": "/images/skill/0404.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G物理攻击时：获得对方损失气血的30%；#r#W(攻击有鬼魂术的敌人无法吸血)#r#W——智将食于敌，以战养战！",
+    "icon": "/images/skill/0404.gif"
   },
   {
-    "id": 405,
+    "id": "405",
     "name": "高级连击",
-    "description": "高级连击",
-    "icon": "/images/skill/0405.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G普通攻击时：55%几率攻击2次；#r#W（无法连击有反震的敌人）#r#R物理伤害效果降低20%",
+    "icon": "/images/skill/0405.gif"
   },
   {
-    "id": 406,
+    "id": "406",
     "name": "高级飞行",
-    "description": "高级飞行",
-    "icon": "/images/skill/0406.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G物理攻击命中几率增加20%；#r物理躲避能力提高30%；#r物理躲避率提高10%；#r#W——居高临下，攻守兼备",
+    "icon": "/images/skill/0406.gif"
   },
   {
-    "id": 407,
+    "id": "407",
     "name": "高级隐身",
-    "description": "高级隐身",
-    "icon": "/images/skill/0407.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G进入战斗后，获得修罗隐身状态3~5回合；#r隐身时不会被攻击；#r#R物理攻击能力降低15%；隐身时不能施法；#r#W——隐藏自己才能更好的消灭敌人",
+    "icon": "/images/skill/0407.gif"
   },
   {
-    "id": 408,
+    "id": "408",
     "name": "高级感知",
-    "description": "高级感知",
-    "icon": "/images/skill/0408.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G可攻击修罗隐身、楚楚可怜状态之敌；#r物理躲避能力提高10%；",
+    "icon": "/images/skill/0408.gif"
   },
   {
-    "id": 409,
+    "id": "409",
     "name": "高级再生",
-    "description": "高级再生",
-    "icon": "/images/skill/0409.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G每回合恢复自身等级×1的气血；",
+    "icon": "/images/skill/0409.gif"
   },
   {
-    "id": 410,
+    "id": "410",
     "name": "高级冥思",
-    "description": "高级冥思",
-    "icon": "/images/skill/0410.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G每回合恢复自身等级/3的魔法；#r#W——从战斗中学习，获得更多战斗能力",
+    "icon": "/images/skill/0410.gif"
   },
   {
-    "id": 411,
+    "id": "411",
     "name": "高级神佑复生",
-    "description": "高级神佑复生",
-    "icon": "/images/skill/0411.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G战斗阵亡时30%几率复活，#r并恢复到100%的气血；#r#W（若有鬼魂术，神佑复生将失效）#r#W——受神灵保佑起死回生的，就别太固执了",
+    "icon": "/images/skill/0411.gif"
   },
   {
-    "id": 412,
+    "id": "412",
     "name": "高级鬼魂术",
-    "description": "高级鬼魂术",
-    "icon": "/images/skill/0412.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G阵亡5回合后自动复活；#r#G不受毒封印等异常状态影响；#r#G对有否定信仰之敌，伤害效果增加20%；#r#W——这些东西…是用特殊材料做的吧？",
+    "icon": "/images/skill/0412.gif"
   },
   {
-    "id": 413,
+    "id": "413",
     "name": "高级驱鬼",
-    "description": "高级驱鬼",
-    "icon": "/images/skill/0413.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G对有鬼魂术之敌，物理及法术伤害效果增加100%；#r可将鬼魂术之敌击飞，使其不能复活；#r#W——驱鬼克鬼魂，一物降一物",
+    "icon": "/images/skill/0413.gif"
   },
   {
-    "id": 414,
+    "id": "414",
     "name": "高级毒",
-    "description": "高级毒",
-    "icon": "/images/skill/0414.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身对毒免疫；#r物理攻击后：20%几率使敌人中毒；#r#W(中毒者，每回合减少10%气血和5%魔法)",
+    "icon": "/images/skill/0414.gif"
   },
   {
-    "id": 415,
+    "id": "415",
     "name": "高级慧根",
-    "description": "高级慧根",
-    "icon": "/images/skill/0415.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G使用法术时所消耗的魔法降低为正常的50%",
+    "icon": "/images/skill/0415.gif"
   },
   {
-    "id": 416,
+    "id": "416",
     "name": "高级必杀",
-    "description": "高级必杀",
-    "icon": "/images/skill/0416.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G物理攻击的必杀几率增加20%；#r#W(必杀时伤害效果将加倍)",
+    "icon": "/images/skill/0416.gif"
   },
   {
-    "id": 417,
+    "id": "417",
     "name": "高级幸运",
-    "description": "高级幸运",
-    "icon": "/images/skill/0417.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G受到的物理/法术伤害暴击倍率降低50%",
+    "icon": "/images/skill/0417.gif"
   },
   {
-    "id": 418,
+    "id": "418",
     "name": "高级精神集中",
-    "description": "高级精神集中",
-    "icon": "/images/skill/0418.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G抵御封印法术！#r#G物理躲避能力提高10%；#r#R物理攻击效果降低20%；",
+    "icon": "/images/skill/0418.gif"
   },
   {
-    "id": 419,
+    "id": "419",
     "name": "高级神迹",
-    "description": "高级神迹",
-    "icon": "/images/skill/0419.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G不受除日月乾坤外的所有异常状态影响；",
+    "icon": "/images/skill/0419.gif"
   },
   {
-    "id": 420,
+    "id": "420",
     "name": "高级招架",
-    "description": "高级招架",
-    "icon": "/images/skill/0420.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G每回合受到的第1次物理伤害结果减免20%；",
+    "icon": "/images/skill/0420.gif"
   },
   {
-    "id": 421,
+    "id": "421",
     "name": "高级永恒",
-    "description": "高级永恒",
-    "icon": "/images/skill/0421.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G受到辅助类法术时，增加100%持续回合数，且增加的回合数不会超过6回合；",
+    "icon": "/images/skill/0421.gif"
   },
   {
-    "id": 422,
+    "id": "422",
     "name": "高级敏捷",
-    "description": "高级敏捷",
-    "icon": "/images/skill/0422.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G速度增加20%；#r#W——兵贵神速",
+    "icon": "/images/skill/0422.gif"
   },
   {
-    "id": 423,
+    "id": "423",
     "name": "高级否定信仰",
-    "description": "高级否定信仰",
-    "icon": "/images/skill/0423.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G受法术伤害效果减少20%；#r#G避免敌人毒封印等异常状态影响；#r#R不能获得辅助类法术效果；#r#R被鬼魂术之敌攻击，多承受20%伤害；#r#R不能同时拥有部分技能；",
+    "icon": "/images/skill/0423.gif"
   },
   {
-    "id": 424,
+    "id": "424",
     "name": "高级魔之心",
-    "description": "高级魔之心",
-    "icon": "/images/skill/0424.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G法术伤害效果提高20%；#r#W——强大的法术来自强大的内心",
+    "icon": "/images/skill/0424.gif"
   },
   {
-    "id": 425,
+    "id": "425",
     "name": "高级偷袭",
-    "description": "高级偷袭",
-    "icon": "/images/skill/0425.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G避免被敌人反击；#r#G避免被敌人反震；#r#G物理伤害效果增加10%；#r",
+    "icon": "/images/skill/0425.gif"
   },
   {
-    "id": 426,
+    "id": "426",
     "name": "奔雷咒",
-    "description": "奔雷咒",
-    "icon": "/images/skill/0426.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G发动雷属性法术攻击多个敌人；#r攻击人数=自身等级/30+1，最多3人；",
+    "icon": "/images/skill/0426.gif"
   },
   {
-    "id": 427,
+    "id": "427",
     "name": "泰山压顶",
-    "description": "泰山压顶",
-    "icon": "/images/skill/0427.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G发动土属性法术攻击多个敌人；#r攻击人数=自身等级/30+1，最多3人；",
+    "icon": "/images/skill/0427.gif"
   },
   {
-    "id": 428,
+    "id": "428",
     "name": "水漫金山",
-    "description": "水漫金山",
-    "icon": "/images/skill/0428.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G发动水属性法术攻击多个敌人；#r攻击人数=自身等级/30+1，最多3人；",
+    "icon": "/images/skill/0428.gif"
   },
   {
-    "id": 429,
+    "id": "429",
     "name": "地狱烈火",
-    "description": "地狱烈火",
-    "icon": "/images/skill/0429.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G发动火属性法术攻击多个敌人；#r攻击人数=自身等级/30+1，最多3人；",
+    "icon": "/images/skill/0429.gif"
   },
   {
-    "id": 430,
+    "id": "430",
     "name": "高级雷属性吸收",
-    "description": "高级雷属性吸收",
-    "icon": "/images/skill/0430.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G50%的几率免受雷属性法术伤害，并按应受伤害的大小恢复气血；#r#G受雷属性法术伤害效果减少30%；",
+    "icon": "/images/skill/0430.gif"
   },
   {
-    "id": 431,
+    "id": "431",
     "name": "高级土属性吸收",
-    "description": "高级土属性吸收",
-    "icon": "/images/skill/0431.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G50%的几率免受土属性法术伤害，并按应受伤害的大小恢复气血；#r#G受土属性法术伤害效果减少30%；",
+    "icon": "/images/skill/0431.gif"
   },
   {
-    "id": 432,
+    "id": "432",
     "name": "高级水属性吸收",
-    "description": "高级水属性吸收",
-    "icon": "/images/skill/0432.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G50%的几率免受水属性法术伤害，并按应受伤害的大小恢复气血；#r#G受水属性法术伤害效果减少30%；",
+    "icon": "/images/skill/0432.gif"
   },
   {
-    "id": 433,
+    "id": "433",
     "name": "高级火属性吸收",
-    "description": "高级火属性吸收",
-    "icon": "/images/skill/0433.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G50%的几率免受火属性法术伤害，并按应受伤害的大小恢复气血；#r#G受火属性法术伤害效果减少30%；",
+    "icon": "/images/skill/0433.gif"
   },
   {
-    "id": 434,
+    "id": "434",
     "name": "高级强力",
-    "description": "高级强力",
-    "icon": "/images/skill/0434.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G物理攻击能力增加自己等级×0.55；#r攻击有招架、高级招架的敌人时不会减少伤害结果#r#R对有高级防御者，伤害结果减少20%",
+    "icon": "/images/skill/0434.gif"
   },
   {
-    "id": 435,
+    "id": "435",
     "name": "高级防御",
-    "description": "高级防御",
-    "icon": "/images/skill/0435.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G提高自身等级×0.8的防御；#r#R法术伤害能力降低10%",
+    "icon": "/images/skill/0435.gif"
   },
   {
-    "id": 436,
+    "id": "436",
     "name": "高级独行",
-    "description": "高级独行",
-    "icon": "/images/skill/0436.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G抵抗封印的能力提高50%；#r#R不会触发合击",
+    "icon": "/images/skill/0436.gif"
   },
   {
-    "id": 437,
+    "id": "437",
     "name": "高级法术反震",
-    "description": "高级法术反震",
-    "icon": "/images/skill/0437.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G受到法术攻击时：30%反震对方，反震伤害为你所受伤害的50%；",
+    "icon": "/images/skill/0437.gif"
   },
   {
-    "id": 438,
+    "id": "438",
     "name": "高级进击必杀",
-    "description": "高级进击必杀",
-    "icon": "/images/skill/0438.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G第2回合及以后进入战斗时，提升30%的必杀几率#r持续5回合，且逐回合减少20%效果。",
+    "icon": "/images/skill/0438.gif"
   },
   {
-    "id": 439,
-    "name": "高级进击法爆",
-    "description": "高级进击法爆",
-    "icon": "/images/skill/0439.gif",
-    "rate": 1
+    "id": "439",
+    "name": "高级进击法暴",
+    "rate": 1,
+    "description": "#G第2回合及以后进入战斗时，提升20%的法术暴击几率#r持续5回合，且逐回合减少20%效果。",
+    "icon": "/images/skill/0439.gif"
   },
   {
-    "id": 440,
-    "name": "关照万象",
-    "description": "关照万象",
-    "icon": "/images/skill/0440.gif",
-    "rate": 1
+    "id": "440",
+    "name": "观照万象",
+    "rate": 1,
+    "description": "#G使用所有的主动技能进攻目标，冷却回合数150，回合数>10可以使用。#r#R只有谛听可拥有此技能#r#W（使用的主动技能不包含认证技能）",
+    "icon": "/images/skill/0440.gif"
   },
   {
-    "id": 441,
+    "id": "441",
     "name": "出其不意",
-    "description": "出其不意",
-    "icon": "/images/skill/0441.gif",
-    "rate": 0.8
+    "rate": 1,
+    "description": "#G使用本回合己方召唤兽未使用过的技能时，造成的伤害结果提升15%。",
+    "icon": "/images/skill/0441.gif"
   },
   {
-    "id": 442,
+    "id": "442",
     "name": "势如破竹",
-    "description": "势如破竹",
-    "icon": "/images/skill/0442.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G物理攻击时，保护的单位分担伤害减少30%。#r#W——万军丛中,探囊取物！",
+    "icon": "/images/skill/0442.gif"
   },
   {
-    "id": 443,
+    "id": "443",
     "name": "高级遗志",
-    "description": "高级遗志",
-    "icon": "/images/skill/0443.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G替代原召唤兽进入战斗时获得“遗志”：造成伤害提升10%；并获得原召唤兽的“遗志”。#r#W（最多两层）",
+    "icon": "/images/skill/0443.gif"
   },
   {
-    "id": 444,
+    "id": "444",
     "name": "无赦魔诀",
-    "description": "无赦魔诀",
-    "icon": "/images/skill/0444.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G攻击的目标触发神佑复生、高级神佑复生时，降低其20%的最大气血值，持续到战斗结束。#r#R仅魔化毗舍童子可拥有此技能#r#W——神佛再也无法护佑你，而且我讨厌绿色。",
+    "icon": "/images/skill/0444.gif"
   },
   {
-    "id": 445,
+    "id": "445",
     "name": "风起龙游",
-    "description": "风起龙游",
-    "icon": "/images/skill/0445.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G攻击速度低于自身的目标，提升10%的伤害效果。#r#W（仅龙族召唤兽携带生效）#r#W——龙行于天，必凭风而起卷万里。",
+    "icon": "/images/skill/0445.gif"
   },
   {
-    "id": 446,
+    "id": "446",
     "name": "薪火相传",
-    "description": "薪火相传",
-    "icon": "/images/skill/0446.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G替换其他召唤兽出场时，被替换召唤兽的当前气血将转化为护盾。#r#W（仅凤族召唤兽携带生效）#r#W——你的力量为我所用，你的愿望由我继承。",
+    "icon": "/images/skill/0446.gif"
   },
   {
-    "id": 447,
+    "id": "447",
     "name": "招财进宝",
-    "description": "招财进宝",
-    "icon": "/images/skill/0447.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G物理攻击时，较小几率出现一个元宝，额外造成大量伤害。#r#R仅元宝龟可拥有此技能#r#W——千金散尽还复来",
+    "icon": "/images/skill/0447.gif"
   },
   {
-    "id": 448,
+    "id": "448",
     "name": "洞察",
-    "description": "洞察",
-    "icon": "/images/skill/0448.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G物理攻击时，随机侦查一名对方单位气血。（仅对怪物战斗有效）#r#R仅天机虫可拥有此技能#r#W——嘀，敌人的弱点已探查清楚。",
+    "icon": "/images/skill/0448.gif"
   },
   {
-    "id": 449,
+    "id": "449",
     "name": "欣欣向荣",
-    "description": "欣欣向荣",
-    "icon": "/images/skill/0449.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G提升40%最大生命值，五行为木时生效。#W（无法再触发神佑复生和鬼魂术）#r#W——这就是生命的力量。",
+    "icon": "/images/skill/0449.gif"
   },
   {
-    "id": 450,
+    "id": "450",
     "name": "万物之灵（火）",
-    "description": "万物之灵（火）",
-    "icon": "/images/skill/0450.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身法术伤害结果提升5%，受到的法术伤害降低5%，五行为火时生效。",
+    "icon": "/images/skill/0450.gif"
   },
   {
-    "id": 451,
+    "id": "451",
     "name": "万物之灵（水）",
-    "description": "万物之灵（水）",
-    "icon": "/images/skill/0451.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身法术伤害结果提升5%，受到的法术伤害降低5%，五行为水时生效。",
+    "icon": "/images/skill/0451.gif"
   },
   {
-    "id": 452,
+    "id": "452",
     "name": "万物之灵（金）",
-    "description": "万物之灵（金）",
-    "icon": "/images/skill/0452.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身法术伤害结果提升5%，受到的法术伤害降低5%，五行为金时生效。",
+    "icon": "/images/skill/0452.gif"
   },
   {
-    "id": 453,
+    "id": "453",
     "name": "万物之灵（土）",
-    "description": "万物之灵（土）",
-    "icon": "/images/skill/0453.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身法术伤害结果提升5%，受到的法术伤害降低5%，五行为土时生效。",
+    "icon": "/images/skill/0453.gif"
   },
   {
-    "id": 454,
+    "id": "454",
     "name": "万物之灵（木）",
-    "description": "万物之灵（木）",
-    "icon": "/images/skill/0454.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身法术伤害结果提升5%，受到的法术伤害降低5%，五行为木时生效。",
+    "icon": "/images/skill/0454.gif"
   },
   {
-    "id": 455,
+    "id": "455",
     "name": "力大无穷（火）",
-    "description": "力大无穷（火）",
-    "icon": "/images/skill/0455.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身物理伤害结果提升5%，受到的物理伤害降低5%，五行为火时生效。",
+    "icon": "/images/skill/0455.gif"
   },
   {
-    "id": 456,
+    "id": "456",
     "name": "力大无穷（水）",
-    "description": "力大无穷（水）",
-    "icon": "/images/skill/0456.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身物理伤害结果提升5%，受到的物理伤害降低5%，五行为水时生效。",
+    "icon": "/images/skill/0456.gif"
   },
   {
-    "id": 457,
+    "id": "457",
     "name": "力大无穷（金）",
-    "description": "力大无穷（金）",
-    "icon": "/images/skill/0457.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身物理伤害结果提升5%，受到的物理伤害降低5%，五行为金时生效。",
+    "icon": "/images/skill/0457.gif"
   },
   {
-    "id": 458,
+    "id": "458",
     "name": "力大无穷（土）",
-    "description": "力大无穷（土）",
-    "icon": "/images/skill/0458.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身物理伤害结果提升5%，受到的物理伤害降低5%，五行为土时生效。",
+    "icon": "/images/skill/0458.gif"
   },
   {
-    "id": 459,
+    "id": "459",
     "name": "力大无穷（木）",
-    "description": "力大无穷（木）",
-    "icon": "/images/skill/0459.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G自身物理伤害结果提升5%，受到的物理伤害降低5%，五行为木时生效。",
+    "icon": "/images/skill/0459.gif"
   },
   {
-    "id": 460,
+    "id": "460",
     "name": "花好月圆",
-    "description": "花好月圆",
-    "icon": "/images/skill/0460.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G每回合结束时，有25%几率增添自身颜色并恢复自身等级×8气血。#r#R只有长乐灵仙可拥有此技能#r#W——等待四季，终遇花开。",
+    "icon": "/images/skill/0460.gif"
   },
   {
-    "id": 461,
+    "id": "461",
     "name": "天狐之舞",
-    "description": "天狐之舞",
-    "icon": "/images/skill/0461.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G阵亡后进入天狐状态：恢复（20%*气血上限）的气血值，主动技能造成的伤害提升10%，回合结束阵亡。#r#W（天狐状态不会受到任何附加状态加成，与出其不意、信仰类技能互斥）#r#R只有觉醒涂山雪可以拥有此技能#r#W——为祖先所庇佑",
+    "icon": "/images/skill/0461.gif"
   },
   {
-    "id": 462,
+    "id": "462",
     "name": "出奇制胜",
-    "description": "出奇制胜",
-    "icon": "/images/skill/0462.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G第二回合及之后入场后，使用的第一个法术造成的法术伤害提升25%。#r#R仅狐族召唤兽携带生效#r#W——惊喜不惊喜？",
+    "icon": "/images/skill/0462.gif"
   },
   {
-    "id": 484,
+    "id": "480",
+    "name": "柳暗花明",
+    "rate": 1,
+    "description": "#G每次没有触发法术连击的施法，提升法术连击时50%伤害结果。#r#W（最多2层，在触发法术连击时清空）",
+    "icon": "/images/skill/0480.gif"
+  },
+  {
+    "id": "481",
+    "name": "与生俱来",
+    "rate": 1,
+    "description": "#G进入战斗时，自动获得自身血量*30%的护盾。",
+    "icon": "/images/skill/0481.gif"
+  },
+  {
+    "id": "482",
+    "name": "义薄云天",
+    "rate": 1,
+    "description": "#G施法时增加自身等级*0.55的法术伤害力；#r#G战斗中不会触发自动逃跑。",
+    "icon": "/images/skill/0482.gif"
+  },
+  {
+    "id": "483",
+    "name": "气贯长虹",
+    "rate": 1,
+    "description": "#G触发连击/高级连击时，伤害提高25%/50%。",
+    "icon": "/images/skill/0483.gif"
+  },
+  {
+    "id": "484",
     "name": "雨露之泽",
-    "description": "雨露之泽",
-    "icon": "/images/skill/0484.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G天气为雨时，受到的伤害降低10%，造成的伤害提升20%。#r#W——雨露风雪均为恩泽。",
+    "icon": "/images/skill/0484.gif"
   },
   {
-    "id": 485,
+    "id": "485",
     "name": "风沙之盾",
-    "description": "风沙之盾",
-    "icon": "/images/skill/0485.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G入场后，获得风之障壁，在风天受到的物理和法术伤害降低40%，持续6回合。#r#W——风扬，沙起。",
+    "icon": "/images/skill/0485.gif"
   },
   {
-    "id": 486,
+    "id": "486",
     "name": "清风之华",
-    "description": "清风之华",
-    "icon": "/images/skill/0486.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G天气为风时，受到的伤害降低20%，造成的伤害提升10%。#r#W——清风雪雨均为恩泽。",
+    "icon": "/images/skill/0486.gif"
   },
   {
-    "id": 487,
+    "id": "487",
     "name": "映雪棱镜",
-    "description": "映雪棱镜",
-    "icon": "/images/skill/0487.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G天气为雪时，“地狱烈火”、“水漫金山”、“泰山压顶”、“奔雷咒”将会额外增加一个目标，司雪携带时法术伤害额外提升17%。#r#W——雪雨清风均为恩泽。",
+    "icon": "/images/skill/0487.gif"
   },
   {
-    "id": 501,
+    "id": "501",
     "name": "弱点雷",
-    "description": "弱点雷",
-    "icon": "/images/skill/0501.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#R被雷属性法术攻击时，承受150%的伤害；",
+    "icon": "/images/skill/0501.gif"
   },
   {
-    "id": 502,
+    "id": "502",
     "name": "弱点土",
-    "description": "弱点土",
-    "icon": "/images/skill/0502.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#R被土属性法术攻击时，承受150%的伤害；",
+    "icon": "/images/skill/0502.gif"
   },
   {
-    "id": 503,
+    "id": "503",
     "name": "弱点水",
-    "description": "弱点水",
-    "icon": "/images/skill/0503.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#R被水属性法术攻击时，承受150%的伤害；",
+    "icon": "/images/skill/0503.gif"
   },
   {
-    "id": 504,
+    "id": "504",
     "name": "弱点火",
-    "description": "弱点火",
-    "icon": "/images/skill/0504.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#R被火属性法术攻击时，承受150%的伤害；",
+    "icon": "/images/skill/0504.gif"
   },
   {
-    "id": 505,
+    "id": "505",
     "name": "迟钝",
-    "description": "迟钝",
-    "icon": "/images/skill/0505.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G天生行动缓慢，速度降低20%；",
+    "icon": "/images/skill/0505.gif"
   },
   {
-    "id": 510,
+    "id": "510",
     "name": "法术连击",
-    "description": "法术连击",
-    "icon": "/images/skill/0510.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G法术攻击时：20%几率攻击2次；#r#W（第二次伤害效果减半）",
+    "icon": "/images/skill/0510.gif"
   },
   {
-    "id": 551,
+    "id": "511",
+    "name": "上古灵符(怒雷)",
+    "rate": 1,
+    "description": "施展奇异的灵符，以怒雷攻击对手",
+    "icon": "/images/skill/0511.gif"
+  },
+  {
+    "id": "512",
+    "name": "上古灵符(冰冻)",
+    "rate": 1,
+    "description": "施展奇异的灵符，以冰冻攻击对手",
+    "icon": "/images/skill/0512.gif"
+  },
+  {
+    "id": "513",
+    "name": "上古灵符(流沙)",
+    "rate": 1,
+    "description": "施展奇异的灵符，以流沙攻击对手",
+    "icon": "/images/skill/0513.gif"
+  },
+  {
+    "id": "514",
+    "name": "上古灵符(心火)",
+    "rate": 1,
+    "description": "施展奇异的灵符，以心火攻击对手",
+    "icon": "/images/skill/0514.gif"
+  },
+  {
+    "id": "515",
+    "name": "善恶有报(恶报)",
+    "rate": 1,
+    "description": "给予对手加倍的打击",
+    "icon": "/images/skill/0515.gif"
+  },
+  {
+    "id": "516",
+    "name": "善恶有报(善报)",
+    "rate": 1,
+    "description": "令对方恢复状态",
+    "icon": "/images/skill/0516.gif"
+  },
+  {
+    "id": "517",
+    "name": "乘胜追击",
+    "rate": 1,
+    "description": "#G普通攻击或连击达到4次时，额外攻击敌人2次。#r#W（额外攻击的伤害结果降低60%）",
+    "icon": "/images/skill/0517.gif"
+  },
+  {
+    "id": "518",
+    "name": "凭风借力",
+    "rate": 1,
+    "description": "#G每次物理攻击提升必杀时12.5%的总伤害结果。#r#W（最多4层，在触发必杀时清空）",
+    "icon": "/images/skill/0518.gif"
+  },
+  {
+    "id": "519",
+    "name": "顾盼生姿",
+    "rate": 1,
+    "description": "#G每次使用主动技能，提升主人0.5*等级的封印命中等级。#r#W（最多4层，在主人封印成功时清空）",
+    "icon": "/images/skill/0519.gif"
+  },
+  {
+    "id": "520",
+    "name": "拘魂索命",
+    "rate": 1,
+    "description": "#G使用法术或法术连击达到4次时，对气血百分比最低的敌人额外释放1次法术。#r#W（额外释放法术的伤害结果降低20%）",
+    "icon": "/images/skill/0520.gif"
+  },
+  {
+    "id": "526",
+    "name": "金仙秘术",
+    "rate": 1,
+    "description": "#G忽视对方10%法术防御进行法术攻击。",
+    "icon": "/images/skill/0526.gif"
+  },
+  {
+    "id": "527",
+    "name": "怒号",
+    "rate": 1,
+    "description": "#G提升我方在场单位物理伤害结果和法术伤害结果10%。#r持续5回合，冷却150回合。",
+    "icon": "/images/skill/0527.gif"
+  },
+  {
+    "id": "528",
+    "name": "万宝金甲",
+    "rate": 1,
+    "description": "#G给我方在场单位附加状态，50%的几率吸收雷、火、土、水属性法术伤害，并转换成加血效果。#r持续5回合，冷却150回合。",
+    "icon": "/images/skill/0528.gif"
+  },
+  {
+    "id": "529",
+    "name": "魔劲激发",
+    "rate": 1,
+    "description": "#G提升目标物理伤害结果20%，增加目标承受的物理和法术伤害结果10%。#r持续1回合。",
+    "icon": "/images/skill/0529.gif"
+  },
+  {
+    "id": "530",
+    "name": "天魔咒术",
+    "rate": 1,
+    "description": "#G提升我方在场单位抵抗封印的能力10%，增加我方在场单位承受的物理和法术伤害结果10%。#r持续5回合，冷却150回合。",
+    "icon": "/images/skill/0530.gif"
+  },
+  {
+    "id": "531",
+    "name": "驭兽术",
+    "rate": 1,
+    "description": "#G降低我方在场召唤兽承受的物理和法术伤害结果20%。#r持续5回合，冷却150回合。",
+    "icon": "/images/skill/0531.gif"
+  },
+  {
+    "id": "532",
+    "name": "墨笔追魂",
+    "rate": 1,
+    "description": "#G携带者释放法术时，孩子有20%几率对同一目标释放墨笔追魂，造成物理伤害。#r消耗MP：50",
+    "icon": "/images/skill/0532.gif"
+  },
+  {
+    "id": "533",
+    "name": "阎王号令",
+    "rate": 1,
+    "description": "#G给目标附加状态，受到物理攻击和法术攻击时，有30%几率给予对方反震。#r反震伤害为所受伤害的50%。#r持续2回合。",
+    "icon": "/images/skill/0533.gif"
+  },
+  {
+    "id": "534",
+    "name": "还魂归魄",
+    "rate": 1,
+    "description": "#G进场时，若友方没有其余召唤兽且阵亡单位数≥3，复活我方所有人物单位，复活后血量为1。#r触发时不同时触发六艺进场技能。#r不能复活受到死亡禁锢和锢魂术的单位。",
+    "icon": "/images/skill/0534.gif"
+  },
+  {
+    "id": "535",
+    "name": "盾牌格挡",
+    "rate": 1,
+    "description": "#G降低目标承受的物理和法术伤害结果20%，降低目标造成的物理和法术伤害结果20%。#r持续1回合。",
+    "icon": "/images/skill/0535.gif"
+  },
+  {
+    "id": "536",
+    "name": "决一死战",
+    "rate": 1,
+    "description": "#G进场时，若我方没有其余召唤兽且阵亡单位数≥3，提升我方在场单位伤害结果100%。#r持续2回合。#r触发时不同时触发六艺进场技能。",
+    "icon": "/images/skill/0536.gif"
+  },
+  {
+    "id": "537",
+    "name": "乌纱帽",
+    "rate": 1,
+    "description": "#G提升目标封印能力20%，增加目标承受的物理和法术伤害结果10%。#r持续1回合。",
+    "icon": "/images/skill/0537.gif"
+  },
+  {
+    "id": "538",
+    "name": "悬壶济世",
+    "rate": 1,
+    "description": "#G提升目标治疗能力20%，增加目标承受的物理和法术伤害结果10%。#r持续1回合。",
+    "icon": "/images/skill/0538.gif"
+  },
+  {
+    "id": "539",
+    "name": "对诗",
+    "rate": 1,
+    "description": "#G携带者释放法术时，孩子有20%几率对3个目标释放对诗，造成法术伤害。#r消耗MP：50",
+    "icon": "/images/skill/0539.gif"
+  },
+  {
+    "id": "540",
+    "name": "十步一人",
+    "rate": 1,
+    "description": "#G无视保护发动一次物理攻击。",
+    "icon": "/images/skill/0540.gif"
+  },
+  {
+    "id": "541",
+    "name": "仙力激发",
+    "rate": 1,
+    "description": "#G提升目标法术伤害结果20%，增加目标承受的物理和法术伤害结果10%。#r持续1回合。",
+    "icon": "/images/skill/0541.gif"
+  },
+  {
+    "id": "542",
+    "name": "腾云跨风",
+    "rate": 1,
+    "description": "#G提升我方在场单位速度10%，增加我方在场单位承受的物理和法术伤害结果10%。#r持续5回合，冷却150回合。",
+    "icon": "/images/skill/0542.gif"
+  },
+  {
+    "id": "543",
+    "name": "文思泉涌",
+    "rate": 1,
+    "description": "#G携带者释放法术时，孩子有20%几率对作用的首目标释放文思泉涌，造成物理法术封印效果。#r持续2回合。#r消耗MP：50",
+    "icon": "/images/skill/0543.gif"
+  },
+  {
+    "id": "551",
     "name": "惊心一剑",
-    "description": "惊心一剑",
-    "icon": "/images/skill/0551.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G发动物理攻击敌人并按伤害比例伤其魔法；#r并使敌在下回合持续损失魔法（持续效果不叠加）#r#R（所发动的物理伤害效果将略为降低）#r#W——打击敌人信念有时比直接打击更有效",
+    "icon": "/images/skill/0551.gif"
   },
   {
-    "id": 552,
+    "id": "552",
     "name": "死亡召唤",
-    "description": "死亡召唤",
-    "icon": "/images/skill/0552.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G发动物理攻击敌人并可能降低其气血上限；#r10%几率使敌人遭受10回合死亡禁锢效果；#r#W（死亡禁锢下不能被复活）#r#W——没有机会？那我就自己创造！",
+    "icon": "/images/skill/0552.gif"
   },
   {
-    "id": 553,
+    "id": "553",
     "name": "上古灵符",
-    "description": "上古灵符",
-    "icon": "/images/skill/0553.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G发动法术攻击单个敌人；#r可能额外降低对方10%愤怒、降低5%魔法、降低更多气血或使敌1回合不能行动。#r#W——怒雷！冰冻！流沙！心火！听我号令！",
+    "icon": "/images/skill/0553.gif"
   },
   {
-    "id": 554,
+    "id": "554",
     "name": "善恶有报",
-    "description": "善恶有报",
-    "icon": "/images/skill/0554.gif",
-    "rate": 0.2
+    "rate": 1,
+    "description": "#G发动物理攻击单个敌人；#r有较大可能对其造成双倍伤害；#r#R也有较小可能不造成伤害并使其恢复少量气血#r#W——不是不报，时候未到。",
+    "icon": "/images/skill/0554.gif"
   },
   {
-    "id": 571,
+    "id": "555",
+    "name": "后发制人",
+    "rate": 1,
+    "description": "休息一回合后，临时提高攻击伤害和速度自动攻击目标，#r消耗:当前气血的10%",
+    "icon": "/images/skill/0555.gif"
+  },
+  {
+    "id": "556",
+    "name": "针灸",
+    "rate": 1,
+    "description": "恢复队友的气血",
+    "icon": "/images/skill/0556.gif"
+  },
+  {
+    "id": "557",
+    "name": "楚楚可怜",
+    "rate": 1,
+    "description": "停止行动并保护自己免受伤害",
+    "icon": "/images/skill/0557.gif"
+  },
+  {
+    "id": "558",
+    "name": "定身符",
+    "rate": 1,
+    "description": "令对手无法施展物理攻击",
+    "icon": "/images/skill/0558.gif"
+  },
+  {
+    "id": "559",
+    "name": "天雷斩",
+    "rate": 1,
+    "description": "重击敌人，并降低其灵力",
+    "icon": "/images/skill/0559.gif"
+  },
+  {
+    "id": "560",
+    "name": "杨柳甘露",
+    "rate": 1,
+    "description": "救活死去的队友",
+    "icon": "/images/skill/0560.gif"
+  },
+  {
+    "id": "561",
+    "name": "龙卷雨击",
+    "rate": 1,
+    "description": "攻击性法术，可攻击多人",
+    "icon": "/images/skill/0561.gif"
+  },
+  {
+    "id": "562",
+    "name": "烟雨剑法",
+    "rate": 1,
+    "description": "连续两次攻击对手",
+    "icon": "/images/skill/0562.gif"
+  },
+  {
+    "id": "563",
+    "name": "极度疯狂",
+    "rate": 1,
+    "description": "受到物理攻击时自动反击",
+    "icon": "/images/skill/0563.gif"
+  },
+  {
+    "id": "564",
+    "name": "三昧真火",
+    "rate": 1,
+    "description": "攻击性法术，攻击单人",
+    "icon": "/images/skill/0564.gif"
+  },
+  {
+    "id": "565",
+    "name": "修罗隐身",
+    "rate": 1,
+    "description": "战斗中隐藏自己的身形，白天才可用",
+    "icon": "/images/skill/0565.gif"
+  },
+  {
+    "id": "566",
+    "name": "勾魂",
+    "rate": 1,
+    "description": "吸取对方的气血补充给自己",
+    "icon": "/images/skill/0566.gif"
+  },
+  {
+    "id": "567",
+    "name": "潜力激发",
+    "rate": 1,
+    "description": "临时提高自己的伤害力、防御力和速度",
+    "icon": "/images/skill/0567.gif"
+  },
+  {
+    "id": "568",
+    "name": "治疗",
+    "rate": 1,
+    "description": "恢复自己或同伴的气血并治疗伤势",
+    "icon": "/images/skill/0568.gif"
+  },
+  {
+    "id": "569",
+    "name": "还魂咒",
+    "rate": 1,
+    "description": "救活死去的队友",
+    "icon": "/images/skill/0569.gif"
+  },
+  {
+    "id": "570",
+    "name": "蚩尤之搏",
+    "rate": 1,
+    "description": "忽视对方30%的防御进行攻击",
+    "icon": "/images/skill/0570.gif"
+  },
+  {
+    "id": "571",
     "name": "力劈华山",
-    "description": "力劈华山",
-    "icon": "/images/skill/0571.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G发动物理攻击单个敌人；#r攻击时命中大量提高；#r#W(适合攻击伤害较低的敌人)#r#W——狭路相逢，强者生存",
+    "icon": "/images/skill/0571.gif"
   },
   {
-    "id": 572,
+    "id": "572",
     "name": "夜舞倾城",
-    "description": "夜舞倾城",
-    "icon": "/images/skill/0572.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G发动固定伤害攻击单个敌人；#r造成自己力量点数*1.5+速度/3的伤害；#r#W(适合攻击防御较高的敌人)#r#R(对玩家使用时效果减半)#r#W——我可不只会蛮力",
+    "icon": "/images/skill/0572.gif"
   },
   {
-    "id": 573,
+    "id": "573",
     "name": "高级法术连击",
-    "description": "高级法术连击",
-    "icon": "/images/skill/0573.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G法术攻击时：30%几率攻击2次；#r#W（第二次伤害效果减半）",
+    "icon": "/images/skill/0573.gif"
   },
   {
-    "id": 575,
+    "id": "575",
     "name": "法术暴击",
-    "description": "法术暴击",
-    "icon": "/images/skill/0575.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G法术攻击时：10%几率出现暴击；#r#W（法术暴击时伤害效果加倍）",
+    "icon": "/images/skill/0575.gif"
   },
   {
-    "id": 576,
+    "id": "576",
     "name": "法术波动",
-    "description": "法术波动",
-    "icon": "/images/skill/0576.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G法术伤害效果小幅度波动；#r#G避免被敌人法术反震；",
+    "icon": "/images/skill/0576.gif"
   },
   {
-    "id": 577,
+    "id": "577",
     "name": "高级法术暴击",
-    "description": "高级法术暴击",
-    "icon": "/images/skill/0577.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G法术攻击时：15%几率出现暴击；#r#W（法术暴击时伤害效果加倍）",
+    "icon": "/images/skill/0577.gif"
   },
   {
-    "id": 578,
+    "id": "578",
     "name": "高级法术波动",
-    "description": "高级法术波动",
-    "icon": "/images/skill/0578.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G法术伤害效果大幅度波动；#r#G避免被敌人法术反震；",
+    "icon": "/images/skill/0578.gif"
   },
   {
-    "id": 579,
+    "id": "579",
     "name": "法术防御",
-    "description": "法术防御",
-    "icon": "/images/skill/0579.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G发动法术强化自己；#r强化后6回合中抵挡所受法术伤害的65%；",
+    "icon": "/images/skill/0579.gif"
   },
   {
-    "id": 595,
+    "id": "581",
+    "name": "金刚护体",
+    "rate": 1,
+    "description": "暂时增加目标的防御。#r使用条件:等级≥80",
+    "icon": "/images/skill/0581.gif"
+  },
+  {
+    "id": "582",
+    "name": "百毒不侵",
+    "rate": 1,
+    "description": "使目标避免中毒。#r使用条件:等级≥80",
+    "icon": "/images/skill/0582.gif"
+  },
+  {
+    "id": "583",
+    "name": "五雷咒",
+    "rate": 1,
+    "description": "攻击性法术，可攻击单人。#r使用条件:等级≥80",
+    "icon": "/images/skill/0583.gif"
+  },
+  {
+    "id": "584",
+    "name": "知己知彼",
+    "rate": 1,
+    "description": "可查看目标的具体信息。#r使用条件:等级≥80",
+    "icon": "/images/skill/0584.gif"
+  },
+  {
+    "id": "585",
+    "name": "五行法术",
+    "rate": 1,
+    "description": "攻击性法术，可攻击单人。#r使用条件:等级≥80",
+    "icon": "/images/skill/0585.gif"
+  },
+  {
+    "id": "586",
+    "name": "龙腾",
+    "rate": 1,
+    "description": "攻击性法术，可攻击单人。#r使用条件:等级≥80",
+    "icon": "/images/skill/0586.gif"
+  },
+  {
+    "id": "587",
+    "name": "炼气化神",
+    "rate": 1,
+    "description": "使目标每回合恢复一定的魔法值。#r使用条件:等级≥80#r消耗:气血30",
+    "icon": "/images/skill/0587.gif"
+  },
+  {
+    "id": "588",
+    "name": "威慑",
+    "rate": 1,
+    "description": "使用后可以压制召唤兽。#r使用条件:等级≥80",
+    "icon": "/images/skill/0588.gif"
+  },
+  {
+    "id": "589",
+    "name": "飞砂走石",
+    "rate": 1,
+    "description": "攻击性法术，可攻击多人。#r使用条件:等级≥80",
+    "icon": "/images/skill/0589.gif"
+  },
+  {
+    "id": "590",
+    "name": "幽冥鬼眼",
+    "rate": 1,
+    "description": "使目标可以看到隐身的鬼魅。#r使用条件:等级≥80",
+    "icon": "/images/skill/0590.gif"
+  },
+  {
+    "id": "591",
+    "name": "姐妹同心",
+    "rate": 1,
+    "description": "减少对手的魔法值。#r使用条件:等级≥80",
+    "icon": "/images/skill/0591.gif"
+  },
+  {
+    "id": "592",
+    "name": "杀气诀",
+    "rate": 1,
+    "description": "可提高自己的伤害力。#r使用条件:等级≥80",
+    "icon": "/images/skill/0592.gif"
+  },
+  {
+    "id": "593",
+    "name": "八凶法阵",
+    "rate": 1,
+    "description": "#G发动法术攻击3个敌人；#r并可能削弱其防御、灵力、伤害、速度；",
+    "icon": "/images/skill/0593.gif"
+  },
+  {
+    "id": "594",
+    "name": "法术防御",
+    "rate": 1,
+    "description": "#G发动法术强化自己；#r强化后6回合中抵挡所受法术伤害的65%；",
+    "icon": "/images/skill/0594.gif"
+  },
+  {
+    "id": "595",
     "name": "壁垒击破",
-    "description": "壁垒击破",
-    "icon": "/images/skill/0595.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G发动物理攻击敌人，并略提高伤害；#r若敌人防御，则伤害大量提高；#r忽视敌人“防御”和“高级防御”技能。#W——没有什么能把我阻挡",
+    "icon": "/images/skill/0595.gif"
   },
   {
-    "id": 596,
+    "id": "596",
     "name": "嗜血追击",
-    "description": "嗜血追击",
-    "icon": "/images/skill/0596.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G当物理攻击击倒敌人时，可继续攻击另一个敌人；#r#W(此效果每回合最多出现1次)#r#W——宜将剩勇追穷寇",
+    "icon": "/images/skill/0596.gif"
   },
   {
-    "id": 597,
+    "id": "597",
     "name": "剑荡四方",
-    "description": "剑荡四方",
-    "icon": "/images/skill/0597.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G发动物理攻击多个敌人。#r对目标造成大部分伤害，并对另外两个目标造成少量伤害。#r#W——谁说用剑不能收割？",
+    "icon": "/images/skill/0597.gif"
   },
   {
-    "id": 598,
+    "id": "598",
+    "name": "潜能激发",
+    "rate": 1,
+    "description": "临时提高自己的伤害力、防御力和速度。持续3回合。如果孩子身上不带有这个效果，则有一定几率继续触发技能效果，持续2回合。#r消耗:(等级/3)*2+5 点魔法",
+    "icon": "/images/skill/0598.gif"
+  },
+  {
+    "id": "599",
     "name": "移花接木",
-    "description": "移花接木",
-    "icon": "/images/skill/0598.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G避免暗器伤害；#r#G恢复所避免暗器伤害30%的气血；",
+    "icon": "/images/skill/0599.gif"
   },
   {
-    "id": 624,
+    "id": "624",
     "name": "龙魂",
-    "description": "龙魂",
-    "icon": "/images/skill/0624.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G每成功使用三次法术都可以临时增加自身法术伤害；#r#W(此效果可持续2回合，成功使用法术后状态消失）#r#W——龙战于野，其血玄黄，不屈的龙魂任何人都无法忽视！",
+    "icon": "/images/skill/0624.gif"
   },
   {
-    "id": 626,
+    "id": "626",
     "name": "法术抵抗",
-    "description": "法术抵抗",
-    "icon": "/images/skill/0626.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G抵抗所受法术伤害的5%#r#R物理攻击能力降低10%#r",
+    "icon": "/images/skill/0626.gif"
   },
   {
-    "id": 627,
+    "id": "627",
     "name": "高级法术抵抗",
-    "description": "高级法术抵抗",
-    "icon": "/images/skill/0627.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G抵抗所受法术伤害的10%#r#R物理攻击能力降低10%#r#W——我下手轻点，你也别想把我弄疼",
+    "icon": "/images/skill/0627.gif"
   },
   {
-    "id": 628,
+    "id": "628",
     "name": "盾气",
-    "description": "盾气",
-    "icon": "/images/skill/0628.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G第2回合及以后进入战斗时，增加等级×1的防御#r持续5回合，且逐回合减少20%效果。#r#R隐身时不触发本效果",
+    "icon": "/images/skill/0628.gif"
   },
   {
-    "id": 629,
+    "id": "629",
     "name": "高级盾气",
-    "description": "高级盾气",
-    "icon": "/images/skill/0629.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G第2回合及以后进入战斗时，增加等级×2的防御#r持续5回合，且逐回合减少20%效果。#r#R隐身时不触发本效果#r#W——死不足惧，只要有所为",
+    "icon": "/images/skill/0629.gif"
   },
   {
-    "id": 638,
+    "id": "631",
+    "name": "仙人指路",
+    "rate": 1,
+    "description": "#G恢复目标队友气血，并在回合结束时解除其封类异常状态。#r#R限对已有封类异常状态者使用，否则催眠其2回合。且只能对玩家使用。#r被解封后的下回合不能再次获得本效果；#r每场战斗中限使用1~3次。#r#W——困局中最后的希望#r（悟性≥1160为3次，悟性≥1080为2次）",
+    "icon": "/images/skill/0631.gif"
+  },
+  {
+    "id": "632",
+    "name": "峰回路转",
+    "rate": 1,
+    "description": "#G当你进场时，立即为全体队友恢复气血。#r#R只有在第5回合及以后进场时才生效。#r#W(随等级、悟性、法术控制力提升恢复量)#r#W——团灭之前你会想到我",
+    "icon": "/images/skill/0632.gif"
+  },
+  {
+    "id": "633",
+    "name": "开门见山",
+    "rate": 1,
+    "description": "#G进场后立即普通攻击一个未被催眠之敌。#r#G提高气血。#W随悟性、等级增加最多380点#r#G提高物理攻击结果。#W随悟性、力量点增加最多100点#r#W——强，无需掩饰",
+    "icon": "/images/skill/0633.gif"
+  },
+  {
+    "id": "634",
+    "name": "张弛有道",
+    "rate": 1,
+    "description": "#G每回合结束时，都获得1层秘法能量；使你下一次法术攻击效果增加。#r#W随等级、悟性、层数增加。#r#W秘法能量在生效后消失，最多叠加2层。#r#W——对了，就是这个节奏",
+    "icon": "/images/skill/0634.gif"
+  },
+  {
+    "id": "635",
+    "name": "四面埋伏",
+    "rate": 1,
+    "description": "#G提升目标队友的封印法术的命中率；#r#R只在该队友气血≤40%时才生效。#r#W随悟性提高最多11%。#r持续4回合。冷却3回合。#r#W——复仇，有很多种方式",
+    "icon": "/images/skill/0635.gif"
+  },
+  {
+    "id": "636",
+    "name": "千锤百炼",
+    "rate": 1,
+    "description": "#G提高HP。#W最多540点。#r#G减少受到的物理伤害。#W最多15%。#r随悟性而增加#r——扛住物理伤害，是一种策略",
+    "icon": "/images/skill/0636.gif"
+  },
+  {
+    "id": "637",
+    "name": "赴汤蹈火",
+    "rate": 1,
+    "description": "#G提高HP。#W最多540点。#r#G减少受到的法术伤害。#W最多10%。#r随悟性而增加#r——扛住法术伤害，是另一种策略",
+    "icon": "/images/skill/0637.gif"
+  },
+  {
+    "id": "638",
     "name": "法力陷阱",
-    "description": "法力陷阱",
-    "icon": "/images/skill/0638.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G召唤一个法力陷阱，持续到本回合结束。#r每个召唤进场的敌人都会触发陷阱，并损失大量魔法和少量气血。#r#R但若从未触发，则自己损失少量气血。#r带有此技能的召唤兽物理、法术伤害能力减少5%#r#W同队同时只能召唤1个陷阱",
+    "icon": "/images/skill/0638.gif"
   },
   {
-    "id": 639,
-    "name": "灵力激发",
-    "description": "灵力激发",
-    "icon": "/images/skill/0639.gif",
-    "rate": 1
+    "id": "639",
+    "name": "灵能激发",
+    "rate": 1,
+    "description": "#G启动后，临时提高自己法术伤害能力。持续5回合",
+    "icon": "/images/skill/0639.gif"
   },
   {
-    "id": 640,
+    "id": "640",
     "name": "合纵",
-    "description": "合纵",
-    "icon": "/images/skill/0640.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G本方每有一种与其不同的召唤兽，提高其等级/5.5点物理伤害结果#r#R被封印几率增加10%",
+    "icon": "/images/skill/0640.gif"
   },
   {
-    "id": 641,
+    "id": "641",
     "name": "高级合纵",
-    "description": "高级合纵",
-    "icon": "/images/skill/0641.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G本方每有一种与其不同的召唤兽，提高其等级/4点物理伤害结果#r#R被封印几率增加10%",
+    "icon": "/images/skill/0641.gif"
   },
   {
-    "id": 650,
+    "id": "644",
+    "name": "雾杀",
+    "rate": 1,
+    "description": "#G对单个目标造成持续固定伤害。#r#W持续2回合，对NPC伤害加倍。",
+    "icon": "/images/skill/0644.gif"
+  },
+  {
+    "id": "645",
+    "name": "蜜润",
+    "rate": 1,
+    "description": "#G提升目标队友法术伤害结果。#r#W持续4回合。#r使用条件:等级≥80",
+    "icon": "/images/skill/0645.gif"
+  },
+  {
+    "id": "646",
+    "name": "裂石",
+    "rate": 1,
+    "description": "#G发动物理攻击敌人，并略提高必杀几率。",
+    "icon": "/images/skill/0646.gif"
+  },
+  {
+    "id": "647",
+    "name": "不动如山",
+    "rate": 1,
+    "description": "#G自己受到的物理、法术伤害减少 20%。#r#W持续2回合.#r使用条件:等级≥80",
+    "icon": "/images/skill/0647.gif"
+  },
+  {
+    "id": "648",
+    "name": "地涌金莲",
+    "rate": 1,
+    "description": "恢复单个目标队友的气血",
+    "icon": "/images/skill/0648.gif"
+  },
+  {
+    "id": "649",
+    "name": "金身舍利",
+    "rate": 1,
+    "description": "#G提升目标队友法术防御能力。#r#W持续4回合。#r使用条件:等级≥80",
+    "icon": "/images/skill/0649.gif"
+  },
+  {
+    "id": "650",
     "name": "苍鸾怒击",
-    "description": "苍鸾怒击",
-    "icon": "/images/skill/0650.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G当普通物理攻击发生必杀或连击时，临时提升10%伤害力随机攻击另外一目标，每回合最多触发一次。#r#W触发后下回合下降20%伤害力和速度。",
+    "icon": "/images/skill/0650.gif"
   },
   {
-    "id": 660,
-    "name": "神马浮云",
-    "description": "神马浮云",
-    "icon": "/images/skill/0660.gif",
-    "rate": 1
+    "id": "652",
+    "name": "狂莽一击",
+    "rate": 1,
+    "description": "#G物理伤害结果提升，但攻击时可能发生偏差。#r#W——“主人，俺是听你话才冲出去的……”“可你撞错人了啊~~！”",
+    "icon": "/images/skill/0652.gif"
   },
   {
-    "id": 661,
+    "id": "653",
+    "name": "虎虎生风",
+    "rate": 1,
+    "description": "#G大幅提升必杀伤害结果。#r#W——威风凛凛，虎虎生风！",
+    "icon": "/images/skill/0653.gif"
+  },
+  {
+    "id": "654",
+    "name": "迅风出击",
+    "rate": 1,
+    "description": "#G施展高速攻击，额外释放等同迅风数的风暴攻击。#r迅风：进入战斗及每次迅风数为零时使用此技能后，将随机获得1至2点迅风。#r#W——无惧风暴，本少主就是风暴！",
+    "icon": "/images/skill/0654.gif"
+  },
+  {
+    "id": "655",
+    "name": "好梦连连",
+    "rate": 1,
+    "description": "#G进入战斗时随机触发“惊梦”和“睡梦”状态，并会在两种状态间切换，每四回合转变一次：#r处于“惊梦”时法术伤害大幅提升；处于“睡梦”状态时法术伤害略微降低。#r#W——睡着的时候可不要打搅我！",
+    "icon": "/images/skill/0655.gif"
+  },
+  {
+    "id": "656",
+    "name": "好梦连连",
+    "rate": 1,
+    "description": "#G进入战斗时随机触发“惊梦”和“睡梦”状态，并会在两种状态间切换，每四回合转变一次：#r处于“惊梦”时物理伤害大幅提升；处于“睡梦”状态时物理伤害略微降低。#r#W——睡着的时候可不要打搅我！",
+    "icon": "/images/skill/0656.gif"
+  },
+  {
+    "id": "660",
+    "name": "浮云神马",
+    "rate": 1,
+    "description": "#G在场时，提高自身及主人10%速度。最多持续5回合。#r#W——我觉得我跑得更快了！",
+    "icon": "/images/skill/0660.gif"
+  },
+  {
+    "id": "661",
     "name": "须弥真言",
-    "description": "须弥真言",
-    "icon": "/images/skill/0661.gif",
-    "rate": 0.6
+    "rate": 1,
+    "description": "#G增加魔力*0.4的法术伤害力。#r#W“须弥圣言，佛光涤罪。”",
+    "icon": "/images/skill/0661.gif"
   },
   {
-    "id": 671,
+    "id": "662",
+    "name": "千钧一怒",
+    "rate": 1,
+    "description": "#G普通物理攻击造成的伤害≥目标气血上限*10%时，使自己的主人获得10点愤怒。#r#W——这是愤怒的力量！",
+    "icon": "/images/skill/0662.gif"
+  },
+  {
+    "id": "663",
+    "name": "天降灵葫",
+    "rate": 1,
+    "description": "#G施法召唤葫芦攻击敌人，至于具体是怎样的葫芦，呃，没人能事先知道",
+    "icon": "/images/skill/0663.gif"
+  },
+  {
+    "id": "664",
+    "name": "天降灵葫",
+    "rate": 1,
+    "description": "#G小葫芦",
+    "icon": "/images/skill/0664.gif"
+  },
+  {
+    "id": "665",
+    "name": "天降灵葫",
+    "rate": 1,
+    "description": "#G中葫芦",
+    "icon": "/images/skill/0665.gif"
+  },
+  {
+    "id": "666",
+    "name": "天降灵葫",
+    "rate": 1,
+    "description": "#G大葫芦",
+    "icon": "/images/skill/0666.gif"
+  },
+  {
+    "id": "667",
+    "name": "大快朵颐",
+    "rate": 1,
+    "description": "#G偷偷藏起来的蟠桃，赶紧拿出来咬一口，唔，好好吃！#r#W出手前有一定几率触发，大大提升几率性技能（连击、必杀）的触发几率",
+    "icon": "/images/skill/0667.gif"
+  },
+  {
+    "id": "669",
+    "name": "月光",
+    "rate": 1,
+    "description": "#G召唤数道月光攻击敌人，同一个人可以被多道月光攻击。#W#r（该技能不能触发法术连击，攻击同一个目标的后续月光伤害会有衰减）#r——代表月亮之力，消灭你们这些大坏蛋。",
+    "icon": "/images/skill/0669.gif"
+  },
+  {
+    "id": "671",
     "name": "无畏布施",
-    "description": "无畏布施",
-    "icon": "/images/skill/0671.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G增加目标的防御、法防，但会降低自身的防御、法防。#r#W“我的就是你的，你的还是你的。”",
+    "icon": "/images/skill/0671.gif"
   },
   {
-    "id": 673,
+    "id": "672",
+    "name": "从天而降",
+    "rate": 1,
+    "description": "#G攻击时会腾空而起，将整个身躯砸向敌人，但起飞的时机有些难以把握#W#r（大大增加攻击时造成的伤害，但攻击时有一定几率腾空失败）",
+    "icon": "/images/skill/0672.gif"
+  },
+  {
+    "id": "673",
     "name": "灵山禅语",
-    "description": "灵山禅语",
-    "icon": "/images/skill/0673.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G增加自身魔力*成长的法防。#r#R魔力不再增加法伤，只增加一半的魔法。#r#W“灵山宝像，万法禅音。”",
+    "icon": "/images/skill/0673.gif"
   },
   {
-    "id": 689,
+    "id": "674",
+    "name": "怨怖之泣",
+    "rate": 1,
+    "description": "#G对目标附带一个不幸诅咒，#r每回合一定几率增加负面状态回合，#r减少增益状态回合。#r#W持续4回合。",
+    "icon": "/images/skill/0674.gif"
+  },
+  {
+    "id": "675",
+    "name": "诡蝠之刑",
+    "rate": 1,
+    "description": "#G对目标附带一个伤害诅咒，#r目标造成的伤害将部分反弹给自己。#r#W持续4回合。#r使用条件:等级≥80",
+    "icon": "/images/skill/0675.gif"
+  },
+  {
+    "id": "676",
+    "name": "匠心·固甲",
+    "rate": 1,
+    "description": "减少友方目标本回合受到的所有伤害。",
+    "icon": "/images/skill/0676.gif"
+  },
+  {
+    "id": "677",
+    "name": "匠心·蓄锐",
+    "rate": 1,
+    "description": "为本方目标回复气血。#r使用条件:等级≥80",
+    "icon": "/images/skill/0677.gif"
+  },
+  {
+    "id": "678",
+    "name": "当头一棒",
+    "rate": 1,
+    "description": "#G对单个目标造成物理伤害。",
+    "icon": "/images/skill/0678.gif"
+  },
+  {
+    "id": "679",
+    "name": "八戒上身",
+    "rate": 1,
+    "description": "#G将目标变成一只可爱的小猪并驱散一个增益状态。#r使用条件：等级≥80",
+    "icon": "/images/skill/0679.gif"
+  },
+  {
+    "id": "680",
+    "name": "食指大动",
+    "rate": 1,
+    "description": "#G召唤随机种类的水果攻击敌人。#W#r不同的水果味道不一，效果自然各具特色。",
+    "icon": "/images/skill/0680.gif"
+  },
+  {
+    "id": "681",
+    "name": "食指大动",
+    "rate": 1,
+    "description": "#G召唤随机种类的水果攻击敌人。#W#r不同的水果味道不一，效果自然各具特色。",
+    "icon": "/images/skill/0681.gif"
+  },
+  {
+    "id": "682",
+    "name": "食指大动",
+    "rate": 1,
+    "description": "#G召唤随机种类的水果攻击敌人。#W#r不同的水果味道不一，效果自然各具特色。",
+    "icon": "/images/skill/0682.gif"
+  },
+  {
+    "id": "683",
+    "name": "食指大动",
+    "rate": 1,
+    "description": "#G召唤随机种类的水果攻击敌人。#W#r不同的水果味道不一，效果自然各具特色。",
+    "icon": "/images/skill/0683.gif"
+  },
+  {
+    "id": "684",
+    "name": "食指大动",
+    "rate": 1,
+    "description": "#G召唤随机种类的水果攻击敌人。#W#r不同的水果味道不一，效果自然各具特色。",
+    "icon": "/images/skill/0684.gif"
+  },
+  {
+    "id": "685",
+    "name": "理直气壮",
+    "rate": 1,
+    "description": "#G普通攻击时：40%的几率攻击3次；#r#R但物理伤害效果降低20%#r#W——一声不够大？那就三声！",
+    "icon": "/images/skill/0685.gif"
+  },
+  {
+    "id": "686",
+    "name": "叱咤风云",
+    "rate": 1,
+    "description": "#G水系法术攻击目标和两个随机目标，提高法术连击的伤害;#r法术连击可重复触发。#r#W——小白龙出世，这下敌人倒霉了！",
+    "icon": "/images/skill/0686.gif"
+  },
+  {
+    "id": "687",
+    "name": "津津有味",
+    "rate": 1,
+    "description": "#G每回合吞掉主人的一个包子，提升暴击几率和暴击伤害倍率。#r#W——吃饱了才有力气揍小坏蛋！",
+    "icon": "/images/skill/0687.gif"
+  },
+  {
+    "id": "688",
+    "name": "叱咤风云",
+    "rate": 1,
+    "description": "#G水系法术攻击目标和两个随机目标，提高法术连击的伤害;#r法术连击可重复触发。#r#W——小白龙出世，这下敌人倒霉了！",
+    "icon": "/images/skill/0688.gif"
+  },
+  {
+    "id": "689",
     "name": "净台妙谛",
-    "description": "净台妙谛",
-    "icon": "/images/skill/0689.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G增加自身体质*成长*2的气血。#r#W——“静听妙谛，腾云护身。”",
+    "icon": "/images/skill/0689.gif"
   },
   {
-    "id": 690,
+    "id": "690",
     "name": "凝光炼彩",
-    "description": "凝光炼彩",
-    "icon": "/images/skill/0690.gif",
-    "rate": 1
+    "rate": 1,
+    "description": "#G受伤时有25%概率获得护盾，护盾值为所受伤害的50%。#r#W——宝石的光芒，是我的保护色。",
+    "icon": "/images/skill/0690.gif"
+  },
+  {
+    "id": "691",
+    "name": "流沙轻音",
+    "rate": 1,
+    "description": "#G发动法术攻击多个目标，伤害按五声音阶递减；#r攻击人数=自身等级/20，最少1人，最多5人。#r#W——金沙和音乐更配哦。",
+    "icon": "/images/skill/0691.gif"
+  },
+  {
+    "id": "692",
+    "name": "昼伏夜出",
+    "rate": 1,
+    "description": "#G夜间物理伤害效果不会减少并提高10%，躲避率增加10%。#r#W——你要提打架我可就不困了。",
+    "icon": "/images/skill/0692.gif"
+  },
+  {
+    "id": "693",
+    "name": "神出鬼没",
+    "rate": 1,
+    "description": "#G进入战斗后获得修罗隐身状态2-3回合；隐身状态下伤害效果提高10%，躲避率增加10%。#r#W——略略略，打不到我~",
+    "icon": "/images/skill/0693.gif"
+  },
+  {
+    "id": "694",
+    "name": "溜之大吉",
+    "rate": 1,
+    "description": "#G自身速度提高20%，躲避率增加10%。#r#W——嗖的一声",
+    "icon": "/images/skill/0694.gif"
+  },
+  {
+    "id": "695",
+    "name": "焚天陨火",
+    "rate": 1,
+    "description": "#G每次物理攻击获得一点劫火，获得第三点时，额外触发一次法术攻击；#r攻击人数=自身等级/30，最多3人。#r#W——看我的小拳拳，嗷呜~~。",
+    "icon": "/images/skill/0695.gif"
+  },
+  {
+    "id": "696",
+    "name": "神来气旺",
+    "rate": 1,
+    "description": "#G使用“地狱烈火”时：初始目标伤害提高；作用目标数每回合有50%概率+1，可叠加，成功触发后概率递减。#r#W——丑时春入户，牛岁福临门。",
+    "icon": "/images/skill/0696.gif"
+  },
+  {
+    "id": "697",
+    "name": "北冥之渊",
+    "rate": 1,
+    "description": "#G令友方所有召唤兽的攻击五行变为水，水属性攻击五行的召唤兽造成伤害提升30%，持续1回合。冷却150回合。#r#W——北冥幽海，巨浪滔天。",
+    "icon": "/images/skill/0697.gif"
+  },
+  {
+    "id": "698",
+    "name": "逍遥游",
+    "rate": 1,
+    "description": "#G提升自身20%速度，受到的物理/法术伤害暴击倍率降低50%且每回合首次受到的物法伤害降低20%。#r第二回合后进场时，100%对血量百分比最低的单位使用水击三千/扶摇万里；如出场时，场上没有“超级鲲鹏”，则出场伤害提升150%。#r#W——乘天地之正，而御六气之辩，以游无穷。",
+    "icon": "/images/skill/0698.gif"
+  },
+  {
+    "id": "699",
+    "name": "水击三千",
+    "rate": 1,
+    "description": "#G临时提升物理伤害结果和暴击倍率进行一次物理攻击。#r#W——鹏之徙于南冥，水击三千里。",
+    "icon": "/images/skill/0699.gif"
+  },
+  {
+    "id": "700",
+    "name": "扶摇万里",
+    "rate": 1,
+    "description": "#G法术攻击多个目标，按等级附加一定的法术伤害；#r攻击人数=自身等级/15+1，最多10人。#r#W——抟扶摇而上者九万里。",
+    "icon": "/images/skill/0700.gif"
+  },
+  {
+    "id": "1878",
+    "name": "海龟发射",
+    "rate": 1,
+    "description": "使用攻击性法术后追加一次海龟伤害。",
+    "icon": "/images/skill/1878.gif"
+  },
+  {
+    "id": "1879",
+    "name": "石像追击",
+    "rate": 1,
+    "description": "使用攻击性法术后追加一次海龟伤害。",
+    "icon": "/images/skill/1879.gif"
+  },
+  {
+    "id": "11333",
+    "name": "熊部秘术",
+    "rate": 1,
+    "description": "2019嘉年华-挑战怪-熊部护盾",
+    "icon": "/images/skill/11333.gif"
+  },
+  {
+    "id": "11334",
+    "name": "熊部之灵",
+    "rate": 1,
+    "description": "2019嘉年华-挑战怪-熊部狂怒",
+    "icon": "/images/skill/11334.gif"
+  },
+  {
+    "id": "11339",
+    "name": "豹部秘术",
+    "rate": 1,
+    "description": "2019嘉年华-挑战怪-豹部buff表演",
+    "icon": "/images/skill/11339.gif"
+  },
+  {
+    "id": "11340",
+    "name": "豹部之灵",
+    "rate": 1,
+    "description": "2019嘉年华-挑战怪-豹部多人buff表演",
+    "icon": "/images/skill/11340.gif"
+  },
+  {
+    "id": "11346",
+    "name": "虎部秘术",
+    "rate": 1,
+    "description": "2019嘉年华-挑战怪-全场每回合持续掉血",
+    "icon": "/images/skill/11346.gif"
+  },
+  {
+    "id": "11347",
+    "name": "虎部之灵",
+    "rate": 1,
+    "description": "2019嘉年华-挑战怪-多人封法群攻",
+    "icon": "/images/skill/11347.gif"
+  },
+  {
+    "id": "11351",
+    "name": "狼部秘术",
+    "rate": 1,
+    "description": "2019嘉年华-挑战怪-狼部表演",
+    "icon": "/images/skill/11351.gif"
+  },
+  {
+    "id": "11352",
+    "name": "狼部之灵",
+    "rate": 1,
+    "description": "2019嘉年华-挑战怪-指挥集中攻击",
+    "icon": "/images/skill/11352.gif"
+  },
+  {
+    "id": "11516",
+    "name": "当头一棒",
+    "rate": 1,
+    "description": "对敌方1个目标造成物理伤害",
+    "icon": "/images/skill/11516.gif"
+  },
+  {
+    "id": "11517",
+    "name": "神针撼海",
+    "rate": 1,
+    "description": "对敌方3个目标造成物理伤害",
+    "icon": "/images/skill/11517.gif"
+  },
+  {
+    "id": "11518",
+    "name": "无所遁形",
+    "rate": 1,
+    "description": "提高自身的伤害和暴击率，可叠加4层，每轮结束时清除层数",
+    "icon": "/images/skill/11518.gif"
+  },
+  {
+    "id": "11519",
+    "name": "猴子猴孙",
+    "rate": 1,
+    "description": "对敌方随机目标造成5次物理伤害",
+    "icon": "/images/skill/11519.gif"
+  },
+  {
+    "id": "11520",
+    "name": "大吃大嚼",
+    "rate": 1,
+    "description": "对敌方1个目标造成法术伤害",
+    "icon": "/images/skill/11520.gif"
+  },
+  {
+    "id": "11521",
+    "name": "开怀畅饮",
+    "rate": 1,
+    "description": "对敌方3个目标造成法术伤害",
+    "icon": "/images/skill/11521.gif"
+  },
+  {
+    "id": "11522",
+    "name": "酒足",
+    "rate": 1,
+    "description": "在“饭饱”状态下”大吃大嚼“暴击率提高10%，并且伤害提高80%；在状态”酒足”下，自己的技能会额外作用2个单位",
+    "icon": "/images/skill/11522.gif"
+  },
+  {
+    "id": "11523",
+    "name": "天庭巨口",
+    "rate": 1,
+    "description": "在“饭饱”状态下使用，对敌方一个单位使用3次“大吃大嚼”;在“酒足”状态下使用，对敌方所有单位造成法术伤害。",
+    "icon": "/images/skill/11523.gif"
+  },
+  {
+    "id": "11524",
+    "name": "降魔护法",
+    "rate": 1,
+    "description": "对敌方1个目标造成物理伤害，同时自己获得护盾",
+    "icon": "/images/skill/11524.gif"
+  },
+  {
+    "id": "11525",
+    "name": "守望相助",
+    "rate": 1,
+    "description": "将自己护盾值的80%转移至1个友方目标",
+    "icon": "/images/skill/11525.gif"
+  },
+  {
+    "id": "11526",
+    "name": "沙河净佑",
+    "rate": 1,
+    "description": "对敌方1个目标造成物理伤害并标记（标记持续2回合），队友对带有标记的目标造成伤害时恢复气血",
+    "icon": "/images/skill/11526.gif"
+  },
+  {
+    "id": "11527",
+    "name": "狂妖显相",
+    "rate": 1,
+    "description": "使用后持续4回合，每回合自己获得护盾。此外，对所有敌方目标有更高概率以你为目标",
+    "icon": "/images/skill/11527.gif"
+  },
+  {
+    "id": "11528",
+    "name": "唧唧歪歪",
+    "rate": 1,
+    "description": "【对敌方释放】对敌方3个目标造成法术伤害【对己方释放】回复己方3个目标的气血",
+    "icon": "/images/skill/11528.gif"
+  },
+  {
+    "id": "11529",
+    "name": "金蝉佛心",
+    "rate": 1,
+    "description": "获得一层“佛心”",
+    "icon": "/images/skill/11529.gif"
+  },
+  {
+    "id": "11530",
+    "name": "袈裟护身",
+    "rate": 1,
+    "description": "使一个目标本轮受到的伤害降低50%，使用后休息1回合。",
+    "icon": "/images/skill/11530.gif"
+  },
+  {
+    "id": "11531",
+    "name": "佛门普渡",
+    "rate": 1,
+    "description": "回复己方5个目标的气血",
+    "icon": "/images/skill/11531.gif"
+  },
+  {
+    "id": "11532",
+    "name": "乘龙破浪",
+    "rate": 1,
+    "description": "使一个己方目标的下一个法术有80%概率再释放一次",
+    "icon": "/images/skill/11532.gif"
+  },
+  {
+    "id": "11533",
+    "name": "游龙化形",
+    "rate": 1,
+    "description": "模仿上回合任意己方使用的技能，并且在自身背后出现他的虚影。",
+    "icon": "/images/skill/11533.gif"
+  },
+  {
+    "id": "11534",
+    "name": "真龙之魂(被动)",
+    "rate": 1,
+    "description": "每使用3次法术，下一次释放的法术效果提升40%，消耗的魔法提高40%",
+    "icon": "/images/skill/11534.gif"
+  },
+  {
+    "id": "11535",
+    "name": "龙驭万灵",
+    "rate": 1,
+    "description": "使用小白龙背后虚影对应角色的终极技能",
+    "icon": "/images/skill/11535.gif"
+  },
+  {
+    "id": "11543",
+    "name": "龙爪",
+    "rate": 1,
+    "description": "对1个单位造成物理伤害",
+    "icon": "/images/skill/11543.gif"
+  },
+  {
+    "id": "11544",
+    "name": "二龙戏珠",
+    "rate": 1,
+    "description": "对气血最低的2个单位造成法术伤害",
+    "icon": "/images/skill/11544.gif"
+  },
+  {
+    "id": "11545",
+    "name": "剑荡四方",
+    "rate": 1,
+    "description": "怪物技能",
+    "icon": "/images/skill/11545.gif"
+  },
+  {
+    "id": "11546",
+    "name": "水漫金山",
+    "rate": 1,
+    "description": "怪物技能",
+    "icon": "/images/skill/11546.gif"
+  },
+  {
+    "id": "11547",
+    "name": "鬼击",
+    "rate": 1,
+    "description": "对1个单位造成物理伤害",
+    "icon": "/images/skill/11547.gif"
+  },
+  {
+    "id": "11548",
+    "name": "火烧",
+    "rate": 1,
+    "description": "对1个单位造成法术伤害",
+    "icon": "/images/skill/11548.gif"
+  },
+  {
+    "id": "11549",
+    "name": "鬼车",
+    "rate": 1,
+    "description": "对全体单位造成物理伤害",
+    "icon": "/images/skill/11549.gif"
+  },
+  {
+    "id": "11550",
+    "name": "火海",
+    "rate": 1,
+    "description": "对全体单位造成法术伤害",
+    "icon": "/images/skill/11550.gif"
+  },
+  {
+    "id": "11551",
+    "name": "火海",
+    "rate": 1,
+    "description": "对全体单位造成法术伤害",
+    "icon": "/images/skill/11551.gif"
+  },
+  {
+    "id": "11552",
+    "name": "幻痛",
+    "rate": 1,
+    "description": "对1个单位造成法术伤害",
+    "icon": "/images/skill/11552.gif"
+  },
+  {
+    "id": "11553",
+    "name": "拍打",
+    "rate": 1,
+    "description": "对全体单位造成物理伤害",
+    "icon": "/images/skill/11553.gif"
+  },
+  {
+    "id": "11554",
+    "name": "鬼击",
+    "rate": 1,
+    "description": "对1个单位造成物理伤害",
+    "icon": "/images/skill/11554.gif"
+  },
+  {
+    "id": "11555",
+    "name": "火烧",
+    "rate": 1,
+    "description": "对1个单位造成法术伤害",
+    "icon": "/images/skill/11555.gif"
+  },
+  {
+    "id": "11556",
+    "name": "鬼车",
+    "rate": 1,
+    "description": "对全体单位造成物理伤害",
+    "icon": "/images/skill/11556.gif"
+  },
+  {
+    "id": "11557",
+    "name": "火海",
+    "rate": 1,
+    "description": "对全体单位造成法术伤害",
+    "icon": "/images/skill/11557.gif"
+  },
+  {
+    "id": "11560",
+    "name": "利啄",
+    "rate": 1,
+    "description": "对1个单位造成物理伤害",
+    "icon": "/images/skill/11560.gif"
+  },
+  {
+    "id": "11561",
+    "name": "火烧",
+    "rate": 1,
+    "description": "对1个单位造成法术伤害",
+    "icon": "/images/skill/11561.gif"
+  },
+  {
+    "id": "11562",
+    "name": "扫平",
+    "rate": 1,
+    "description": "对全体单位造成物理伤害",
+    "icon": "/images/skill/11562.gif"
+  },
+  {
+    "id": "11563",
+    "name": "火海",
+    "rate": 1,
+    "description": "对全体单位造成法术伤害",
+    "icon": "/images/skill/11563.gif"
+  },
+  {
+    "id": "11564",
+    "name": "龙威",
+    "rate": 1,
+    "description": "怪物技能",
+    "icon": "/images/skill/11564.gif"
+  },
+  {
+    "id": "11566",
+    "name": "鼓舞",
+    "rate": 1,
+    "description": "怪物技能",
+    "icon": "/images/skill/11566.gif"
+  },
+  {
+    "id": "11567",
+    "name": "魅惑",
+    "rate": 1,
+    "description": "怪物技能",
+    "icon": "/images/skill/11567.gif"
+  },
+  {
+    "id": "11568",
+    "name": "龙腾",
+    "rate": 1,
+    "description": "对1个单位造成法术伤害",
+    "icon": "/images/skill/11568.gif"
+  },
+  {
+    "id": "11569",
+    "name": "龙卷雨击",
+    "rate": 1,
+    "description": "对全体单位造成法术伤害",
+    "icon": "/images/skill/11569.gif"
+  },
+  {
+    "id": "11574",
+    "name": "判官令",
+    "rate": 1,
+    "description": "怪物技能",
+    "icon": "/images/skill/11574.gif"
+  },
+  {
+    "id": "11575",
+    "name": "阎罗令",
+    "rate": 1,
+    "description": "怪物技能",
+    "icon": "/images/skill/11575.gif"
+  },
+  {
+    "id": "11576",
+    "name": "超级龙爪",
+    "rate": 1,
+    "description": "怪物技能",
+    "icon": "/images/skill/11576.gif"
+  },
+  {
+    "id": "11577",
+    "name": "超级龙腾",
+    "rate": 1,
+    "description": "怪物技能",
+    "icon": "/images/skill/11577.gif"
+  },
+  {
+    "id": "11610",
+    "name": "饕餮",
+    "rate": 1,
+    "description": "猪八戒技能",
+    "icon": "/images/skill/11610.gif"
+  },
+  {
+    "id": "11611",
+    "name": "横夺",
+    "rate": 1,
+    "description": "怪物技能",
+    "icon": "/images/skill/11611.gif"
+  },
+  {
+    "id": "11612",
+    "name": "炸毛",
+    "rate": 1,
+    "description": "怪物技能",
+    "icon": "/images/skill/11612.gif"
+  },
+  {
+    "id": "11613",
+    "name": "救治",
+    "rate": 1,
+    "description": "怪物技能",
+    "icon": "/images/skill/11613.gif"
+  },
+  {
+    "id": "11614",
+    "name": "沙僧盾的buff",
+    "rate": 1,
+    "description": "沙僧盾单独做一个buff",
+    "icon": "/images/skill/11614.gif"
+  },
+  {
+    "id": "11617",
+    "name": "喘息",
+    "rate": 1,
+    "description": "怪物技能",
+    "icon": "/images/skill/11617.gif"
+  },
+  {
+    "id": "11619",
+    "name": "窃取",
+    "rate": 1,
+    "description": "怪物技能",
+    "icon": "/images/skill/11619.gif"
+  },
+  {
+    "id": "11633",
+    "name": "水攻",
+    "rate": 1,
+    "description": "怪物技能",
+    "icon": "/images/skill/11633.gif"
+  },
+  {
+    "id": "11659",
+    "name": "追加物理攻击",
+    "rate": 1,
+    "description": "攻击敌人时有概率再次进行一次物理攻击。",
+    "icon": "/images/skill/11659.gif"
+  },
+  {
+    "id": "11660",
+    "name": "追加法术攻击",
+    "rate": 1,
+    "description": "攻击敌人时有概率再次进行一次法术攻击。",
+    "icon": "/images/skill/11660.gif"
+  },
+  {
+    "id": "11661",
+    "name": "追加治疗",
+    "rate": 1,
+    "description": "对友方释放技能时有概率使其获得治疗。",
+    "icon": "/images/skill/11661.gif"
+  },
+  {
+    "id": "11662",
+    "name": "追加护盾",
+    "rate": 1,
+    "description": "对友方释放技能时有概率使其获得护盾。",
+    "icon": "/images/skill/11662.gif"
+  },
+  {
+    "id": "11666",
+    "name": "犬矢",
+    "rate": 1,
+    "description": "对所有单位造成伤害。",
+    "icon": "/images/skill/11666.gif"
+  },
+  {
+    "id": "11667",
+    "name": "三星灭魔",
+    "rate": 1,
+    "description": "对气血最低的单位造成伤害，若击飞，则重新使用此技能。",
+    "icon": "/images/skill/11667.gif"
+  },
+  {
+    "id": "11668",
+    "name": "钟馗论道",
+    "rate": 1,
+    "description": "提高60%伤害",
+    "icon": "/images/skill/11668.gif"
+  },
+  {
+    "id": "11742",
+    "name": "吸收",
+    "rate": 1,
+    "description": "吸收目标的当前气血。",
+    "icon": "/images/skill/11742.gif"
+  },
+  {
+    "id": "19026",
+    "name": "剑气四溢",
+    "rate": 1,
+    "description": "轩辕剑三期，轩辕召唤剑气",
+    "icon": "/images/skill/19026.gif"
+  },
+  {
+    "id": "19027",
+    "name": "能量引导",
+    "rate": 1,
+    "description": "轩辕剑三期，周幽召唤神器能量",
+    "icon": "/images/skill/19027.gif"
+  },
+  {
+    "id": "19118",
+    "name": "花开富贵",
+    "rate": 1,
+    "description": "复活友方所有玩家单位，回复其气血，并且使其本回合内受到的所有伤害降低。#r#F宋体14:提升治疗能力、爆竹效果可以增加回复的气血，提升爆竹效果可以提升减伤效果。",
+    "icon": "/images/skill/19118.gif"
+  },
+  {
+    "id": "19119",
+    "name": "美梦连连",
+    "rate": 1,
+    "description": "使敌方所有单位本回合进入石化状态，且受到的伤害增加，成功率和双方等级差相关。#r#F宋体14:非封印门派使用该技能时，封印命中率下降。",
+    "icon": "/images/skill/19119.gif"
+  },
+  {
+    "id": "19120",
+    "name": "火树银花",
+    "rate": 1,
+    "description": "对所有的目标造成极高的固定伤害。#r#F宋体14:提升物理或者法术伤害和爆竹效果都可以增加造成的伤害。",
+    "icon": "/images/skill/19120.gif"
+  },
+  {
+    "id": "19121",
+    "name": "鱼跃龙门",
+    "rate": 1,
+    "description": "对选中的目标造成巨量固定伤害。#r#F宋体14:提升物理或者法术伤害和爆竹效果都可以增加造成的伤害。",
+    "icon": "/images/skill/19121.gif"
+  },
+  {
+    "id": "19123",
+    "name": "花开富贵",
+    "rate": 1,
+    "description": "复活友方所有玩家单位，回复其气血，并且使其本回合内受到的所有伤害降低。#r#F宋体14:提升治疗能力和爆竹效果可以增加回复的气血，提升爆竹效果可以提升减伤效果。",
+    "icon": "/images/skill/19123.gif"
+  },
+  {
+    "id": "19124",
+    "name": "美梦连连",
+    "rate": 1,
+    "description": "使敌方所有单位本回合进入石化状态，且受到的伤害增加，成功率和双方等级差相关。#r#F宋体14:非封印门派使用该技能时，封印命中率下降。",
+    "icon": "/images/skill/19124.gif"
+  },
+  {
+    "id": "19125",
+    "name": "火树银花",
+    "rate": 1,
+    "description": "对所有的目标造成极高的固定伤害。#r#F宋体14:提升物理或者法术伤害和爆竹效果都可以增加造成的伤害。",
+    "icon": "/images/skill/19125.gif"
+  },
+  {
+    "id": "19126",
+    "name": "鱼跃龙门",
+    "rate": 1,
+    "description": "对选中的目标造成巨量固定伤害。#r#F宋体14:提升物理或者法术伤害和爆竹效果都可以增加造成的伤害。",
+    "icon": "/images/skill/19126.gif"
+  },
+  {
+    "id": "19138",
+    "name": "从者如云",
+    "rate": 1,
+    "description": "可召唤最多4只召唤兽同时在场（召唤冷却：2回合）",
+    "icon": "/images/skill/19138.gif"
+  },
+  {
+    "id": "19139",
+    "name": "兽魂锥",
+    "rate": 1,
+    "description": "使用单法（烈火、上古灵符等）攻击召唤兽、孩子、召唤物时有几率将目标当回合的攻击对象改为傀儡（单挑时召唤于角色后方的召唤兽将拥有该被动技能）",
+    "icon": "/images/skill/19139.gif"
+  },
+  {
+    "id": "19141",
+    "name": "分光",
+    "rate": 1,
+    "description": "主动减少自身防御、法防为召唤兽或孩子提升伤害和法术伤害。提升效果与敏捷有关。#r消耗：30点魔法",
+    "icon": "/images/skill/19141.gif"
+  },
+  {
+    "id": "19143",
+    "name": "力竭",
+    "rate": 1,
+    "description": "从第15回合起（含15回合），敌方人物角色每5回合将失去10%的当前防御和10%的当前法术防御。",
+    "icon": "/images/skill/19143.gif"
+  },
+  {
+    "id": "19144",
+    "name": "遏制",
+    "rate": 1,
+    "description": "天地同寿变化为使目标防御降低一半，受到法术伤害降低50%，且不会吸收封印；女魃墓在场的幻魔最多一只。",
+    "icon": "/images/skill/19144.gif"
+  },
+  {
+    "id": "19145",
+    "name": "相胜",
+    "rate": 1,
+    "description": "#G攻击时：#r若五行克制了对方，伤害结果加倍；#r若五行被对方克制，伤害结果减半。",
+    "icon": "/images/skill/19145.gif"
+  },
+  {
+    "id": "19146",
+    "name": "激励",
+    "rate": 1,
+    "description": "#G恢复友方目标的气血；#r每次使用后，目标受到的气血恢复效果降低10%。",
+    "icon": "/images/skill/19146.gif"
+  },
+  {
+    "id": "19147",
+    "name": "御法",
+    "rate": 1,
+    "description": "#G防御时：伤害减免效果提升至80%；#r对法术攻击和壁垒击破同样起效。",
+    "icon": "/images/skill/19147.gif"
+  },
+  {
+    "id": "19148",
+    "name": "千手",
+    "rate": 1,
+    "description": "#G发动地狱烈火/奔雷咒/泰山压顶/水漫金山时：额外作用一个单位。",
+    "icon": "/images/skill/19148.gif"
+  },
+  {
+    "id": "19149",
+    "name": "破体",
+    "rate": 1,
+    "description": "#G对首目标附加目标当前气血*8%的伤害力。#r#W（法术攻击则附加法术伤害力）",
+    "icon": "/images/skill/19149.gif"
+  },
+  {
+    "id": "19150",
+    "name": "破伤",
+    "rate": 1,
+    "description": "#G使敌方目标减少双方当前气血差值*70%的气血。#r#W（适合针对当前气血较低的敌人）",
+    "icon": "/images/skill/19150.gif"
+  },
+  {
+    "id": "19151",
+    "name": "祈胜",
+    "rate": 1,
+    "description": "#G使友方目标攻击时：五行视为克制对方，持续1回合。",
+    "icon": "/images/skill/19151.gif"
+  },
+  {
+    "id": "19152",
+    "name": "陷足",
+    "rate": 1,
+    "description": "#G普通攻击时：30%几率使目标无法行动，持续1回合。",
+    "icon": "/images/skill/19152.gif"
+  },
+  {
+    "id": "19153",
+    "name": "辉耀",
+    "rate": 1,
+    "description": "#G驱散双方所有修罗隐身效果。",
+    "icon": "/images/skill/19153.gif"
+  },
+  {
+    "id": "19157",
+    "name": "玲珑香粽",
+    "rate": 1,
+    "description": "复活友方所有玩家单位，回复其气血，并且使其本回合内受到的所有伤害降低。#r#F宋体14:提升治疗能力可以增加回复的气血，提升粽技等级可以提升减伤效果。",
+    "icon": "/images/skill/19157.gif"
+  },
+  {
+    "id": "19158",
+    "name": "彩丝戏蛟",
+    "rate": 1,
+    "description": "使敌方所有单位本回合进入石化状态，且受到的伤害增加，成功率和双方等级差相关。#r#F宋体14:非封印门派使用该技能时，作用人数会减少。",
+    "icon": "/images/skill/19158.gif"
+  },
+  {
+    "id": "19159",
+    "name": "九子粽",
+    "rate": 1,
+    "description": "对所有的目标造成极高的固定伤害。#r#F宋体14:提升物理或者法术伤害和粽技等级都可以增加造成的伤害。",
+    "icon": "/images/skill/19159.gif"
+  },
+  {
+    "id": "19160",
+    "name": "艾束棕髻",
+    "rate": 1,
+    "description": "对选中的目标造成巨量固定伤害。#r#F宋体14:提升物理或者法术伤害和粽技等级都可以增加造成的伤害。",
+    "icon": "/images/skill/19160.gif"
+  },
+  {
+    "id": "19162",
+    "name": "傀儡",
+    "rate": 1,
+    "description": "#G临时复活一个处于阵亡状态的鬼魂宠，行动后恢复阵亡状态。",
+    "icon": "/images/skill/19162.gif"
+  },
+  {
+    "id": "19163",
+    "name": "附体",
+    "rate": 1,
+    "description": "#G唤出支援召唤兽并提升30%气血。#r#W条件：支援召唤兽未入场",
+    "icon": "/images/skill/19163.gif"
+  },
+  {
+    "id": "19164",
+    "name": "雷伤",
+    "rate": 1,
+    "description": "#G回合开始时：全场气血最多的单位减少15%当前气血。",
+    "icon": "/images/skill/19164.gif"
+  },
+  {
+    "id": "19165",
+    "name": "暴烈",
+    "rate": 1,
+    "description": "#G8%几率造成250%伤害结果。",
+    "icon": "/images/skill/19165.gif"
+  },
+  {
+    "id": "19166",
+    "name": "暴起",
+    "rate": 1,
+    "description": "#G首次造成伤害时：伤害结果增加25%。",
+    "icon": "/images/skill/19166.gif"
+  },
+  {
+    "id": "19167",
+    "name": "御盾",
+    "rate": 1,
+    "description": "#G回合结束时：50%几率获得等级*8的护盾。",
+    "icon": "/images/skill/19167.gif"
+  },
+  {
+    "id": "19169",
+    "name": "傀儡",
+    "rate": 1,
+    "description": "#G傀儡单位行动后恢复阵亡状态。",
+    "icon": "/images/skill/19169.gif"
+  },
+  {
+    "id": "19170",
+    "name": "召唤",
+    "rate": 1,
+    "description": "可召唤最多4只召唤兽同时在场（召唤冷却：2回合），召唤在人物后方位置的召唤兽将拥有被动技能：兽魂锥。",
+    "icon": "/images/skill/19170.gif"
+  },
+  {
+    "id": "19192",
+    "name": "花开富贵",
+    "rate": 1,
+    "description": "复活友方所有玩家单位，回复其气血，并且使其本回合内受到的所有伤害降低。#r#F宋体14:提升治疗能力可以增加回复的气血，提升爆竹等级可以提升减伤效果。",
+    "icon": "/images/skill/19192.gif"
+  },
+  {
+    "id": "19193",
+    "name": "美梦连连",
+    "rate": 1,
+    "description": "使敌方所有单位本回合进入石化状态，且受到的伤害增加，成功率和双方等级差相关。#r#F宋体14:非封印门派使用该技能时，作用人数会减少。",
+    "icon": "/images/skill/19193.gif"
+  },
+  {
+    "id": "19194",
+    "name": "火树银花",
+    "rate": 1,
+    "description": "对所有的目标造成极高的固定伤害。#r#F宋体14:提升物理或者法术伤害和爆竹等级都可以增加造成的伤害。",
+    "icon": "/images/skill/19194.gif"
+  },
+  {
+    "id": "19195",
+    "name": "鱼跃龙门",
+    "rate": 1,
+    "description": "对选中的目标造成巨量固定伤害。#r#F宋体14:提升物理或者法术伤害和爆竹等级都可以增加造成的伤害。",
+    "icon": "/images/skill/19195.gif"
+  },
+  {
+    "id": "19196",
+    "name": "花开富贵",
+    "rate": 1,
+    "description": "复活友方所有玩家单位，回复其气血，并且使其本回合内受到的所有伤害降低。#r#F宋体14:提升治疗能力可以增加回复的气血，提升爆竹等级可以提升减伤效果。",
+    "icon": "/images/skill/19196.gif"
+  },
+  {
+    "id": "19197",
+    "name": "美梦连连",
+    "rate": 1,
+    "description": "使敌方所有单位本回合进入石化状态，且受到的伤害增加，成功率和双方等级差相关。#r#F宋体14:非封印门派使用该技能时，作用人数会减少。",
+    "icon": "/images/skill/19197.gif"
+  },
+  {
+    "id": "19198",
+    "name": "火树银花",
+    "rate": 1,
+    "description": "对所有的目标造成极高的固定伤害。#r#F宋体14:提升物理或者法术伤害和爆竹等级都可以增加造成的伤害。",
+    "icon": "/images/skill/19198.gif"
+  },
+  {
+    "id": "19199",
+    "name": "鱼跃龙门",
+    "rate": 1,
+    "description": "对选中的目标造成巨量固定伤害。#r#F宋体14:提升物理或者法术伤害和爆竹等级都可以增加造成的伤害。",
+    "icon": "/images/skill/19199.gif"
+  },
+  {
+    "id": "19255",
+    "name": "力之音",
+    "rate": 1,
+    "description": "使队友造成的物理伤害提升。",
+    "icon": "/images/skill/19255.gif"
+  },
+  {
+    "id": "19256",
+    "name": "柔之音",
+    "rate": 1,
+    "description": "使队友造成的法术伤害和固定伤害提升。",
+    "icon": "/images/skill/19256.gif"
+  },
+  {
+    "id": "19268",
+    "name": "腐木逢生",
+    "rate": 1,
+    "description": "消耗自身一定比例的气血（不足则全部消耗），将消耗的气血以更高比例转化为护盾平分给所有在场的其他队友（不包括施法者自己）。",
+    "icon": "/images/skill/19268.gif"
+  },
+  {
+    "id": "19291",
+    "name": "光阴似箭",
+    "rate": 1,
+    "description": "释放积攒的时间之力发动一次威力巨大的单体攻击，每10分钟完成充能。",
+    "icon": "/images/skill/19291.gif"
+  },
+  {
+    "id": "19344",
+    "name": "撞击",
+    "rate": 1,
+    "description": "对单体造成130%物理伤害，并进行嘲讽，持续1回合，若处于常规形态，则激发1个能量",
+    "icon": "/images/skill/19344.gif"
+  },
+  {
+    "id": "19345",
+    "name": "切割",
+    "rate": 1,
+    "description": "对3个单位造成100%物理伤害，若处于常规形态，则激发2个能量",
+    "icon": "/images/skill/19345.gif"
+  },
+  {
+    "id": "19346",
+    "name": "爆发",
+    "rate": 1,
+    "description": "对2个单位造成120%物理伤害，激发所有平稳态的能力，每激发一个能量伤害提高12%，基础冷却3回合，每激发一个能力冷却时间延长1回合",
+    "icon": "/images/skill/19346.gif"
+  },
+  {
+    "id": "19347",
+    "name": "急速冷却",
+    "rate": 1,
+    "description": "常规形态使用，使2个激发态的能量回复平稳态，并使下一次撞击或切割激发能量数-1；过载形态，使3个能量立即冷却，并恢复300 + 2 * lv点甲盾值。冷却3回合，本次山河画境过载形态下每使用一次本技能，冷却时间延长1回合（最多10回合）",
+    "icon": "/images/skill/19347.gif"
+  },
+  {
+    "id": "19348",
+    "name": "勘山",
+    "rate": 1,
+    "description": "对指定目标造成150%法术伤害，然后获取一定数量的卦象",
+    "icon": "/images/skill/19348.gif"
+  },
+  {
+    "id": "19349",
+    "name": "寻龙",
+    "rate": 1,
+    "description": "对卦象使用，将目标卦象随机变换为槽位中已有的其他卦象，并提高下一次技能50%法术伤害",
+    "icon": "/images/skill/19349.gif"
+  },
+  {
+    "id": "19350",
+    "name": "定穴1",
+    "rate": 1,
+    "description": "打出相同数量最多的卦象，造成法术伤害",
+    "icon": "/images/skill/19350.gif"
+  },
+  {
+    "id": "19351",
+    "name": "定穴2",
+    "rate": 1,
+    "description": "打出相同数量最多的卦象，造成法术伤害；另一个随机目标受到100%法术伤害",
+    "icon": "/images/skill/19351.gif"
+  },
+  {
+    "id": "19450",
+    "name": "相知",
+    "rate": 1,
+    "description": "对所有的目标造成极高的固定伤害。",
+    "icon": "/images/skill/19450.gif"
+  },
+  {
+    "id": "19451",
+    "name": "花开富贵",
+    "rate": 1,
+    "description": "复活友方所有玩家单位，并回复其气血。",
+    "icon": "/images/skill/19451.gif"
+  },
+  {
+    "id": "19452",
+    "name": "美梦连连",
+    "rate": 1,
+    "description": "使选中的敌方单位本回合进入石化状态，且受到的伤害增加。",
+    "icon": "/images/skill/19452.gif"
+  },
+  {
+    "id": "19453",
+    "name": "火树银花",
+    "rate": 1,
+    "description": "对所有的目标造成极高的固定伤害。#r#F宋体14:提升物理、法术或固定伤害都可以增加造成的伤害。",
+    "icon": "/images/skill/19453.gif"
+  },
+  {
+    "id": "19454",
+    "name": "鱼跃龙门",
+    "rate": 1,
+    "description": "对选中的目标造成巨量固定伤害。#r#F宋体14:提升物理、法术或固定伤害都可以增加造成的伤害。",
+    "icon": "/images/skill/19454.gif"
+  },
+  {
+    "id": "19558",
+    "name": "瑞兔呈祥",
+    "rate": 1,
+    "description": "祝福对方。",
+    "icon": "/images/skill/19558.gif"
+  },
+  {
+    "id": "60265",
+    "name": "归元",
+    "rate": 1,
+    "description": "自身选择目标时，不受虚实限制。",
+    "icon": "/images/skill/60265.gif"
+  },
+  {
+    "id": "60266",
+    "name": "双相",
+    "rate": 1,
+    "description": "自身被选择目标时，不受虚实限制。",
+    "icon": "/images/skill/60266.gif"
+  },
+  {
+    "id": "60267",
+    "name": "空相",
+    "rate": 1,
+    "description": "不受虚实限制，不能被对方目标选择。",
+    "icon": "/images/skill/60267.gif"
+  },
+  {
+    "id": "60268",
+    "name": "坚盾·物理",
+    "rate": 1,
+    "description": "单回合受到最大气血百分比X的物理伤害，解除状态并转换虚实。",
+    "icon": "/images/skill/60268.gif"
+  },
+  {
+    "id": "60269",
+    "name": "坚盾·法术",
+    "rate": 1,
+    "description": "单回合受到最大气血百分比X的法术伤害，解除状态并转换虚实。",
+    "icon": "/images/skill/60269.gif"
+  },
+  {
+    "id": "60270",
+    "name": "坚盾·固定伤害",
+    "rate": 1,
+    "description": "单回合受到最大气血百分比X的固定伤害，解除状态并转换虚实。",
+    "icon": "/images/skill/60270.gif"
+  },
+  {
+    "id": "60271",
+    "name": "坚盾",
+    "rate": 1,
+    "description": "单回合受到最大气血百分比X的任意伤害，解除状态并转换虚实。",
+    "icon": "/images/skill/60271.gif"
+  },
+  {
+    "id": "60272",
+    "name": "善变",
+    "rate": 1,
+    "description": "自带召唤兽技能神迹。被真的封后，立刻转换虚实。",
+    "icon": "/images/skill/60272.gif"
+  },
+  {
+    "id": "60273",
+    "name": "游移",
+    "rate": 1,
+    "description": "X回合结束时，迅捷施法转换虚实状态（封法术则无法转换，不占回合出手）",
+    "icon": "/images/skill/60273.gif"
+  },
+  {
+    "id": "60274",
+    "name": "超量暴击",
+    "rate": 1,
+    "description": "单一单位出手造成伤害H超过一定值（MAX_HP * k%），则对同虚实属性全体单位造成MAX_HP * x%的伤害。",
+    "icon": "/images/skill/60274.gif"
+  },
+  {
+    "id": "60275",
+    "name": "爆炸",
+    "rate": 1,
+    "description": "单位阵亡时，则对同虚实属性全体己方单位造成自身MAX_HP * x%的伤害。",
+    "icon": "/images/skill/60275.gif"
   }
 ]

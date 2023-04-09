@@ -1,17 +1,17 @@
 // 召唤师实例
 interface Monster {
 	id: string;
-  mid: number;
+  mid: string;
   name: string;
   wild: boolean;
-  skills: number[]
+  skills: string[]
 }
 
 interface MonsterInintail {
-  id: number;
+  id: string;
   name: string;
-  requiredSkills: number[];
-  optionalSkills: number[];
+  requiredSkills: string[];
+  optionalSkills: string[];
 }
 
 

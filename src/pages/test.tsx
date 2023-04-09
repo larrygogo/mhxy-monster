@@ -1,27 +1,26 @@
 import Head from 'next/head'
 import React, {useEffect, useState} from "react";
 import {initMonster, initMonsterWithSkill, mixMonster} from "@/src/libs/monster";
+import WindowWrapper from "@/src/components/window-wrapper";
 import {unique} from "@/src/utils";
-import Container from "@/src/components/Container";
 
 const skillData: Skill[] = require('@/src/data/skill.json')
 const monsterData: MonsterInintail[] = require('@/src/data/monster.json')
 
 export default function Home() {
-  const [m1, setM1] = useState<Monster>(initMonster("2399"))
-  const [m2, setM2] = useState<Monster>(initMonster("2036"))
+  const [m1, setM1] = useState<Monster>(initMonster(2))
+  const [m2, setM2] = useState<Monster>(initMonster(3))
   const [m3, setM3] = useState<Monster>()
 
-  const [skill1, setSkill1] = useState<string>(skillData[0].id)
-  const [skill2, setSkill2] = useState<string>(skillData[0].id)
+  const [skill1, setSkill1] = useState<number>(skillData[0].id)
+  const [skill2, setSkill2] = useState<number>(skillData[0].id)
 
-  const [type1, setType1] = useState<string>("2399")
-  const [type2, setType2] = useState<string>("2036")
-
+  const [type1, setType1] = useState<number>(2)
+  const [type2, setType2] = useState<number>(3)
 
   useEffect(() => {
-    console.log(m1)
-  }, [m1])
+
+  }, [])
 
   const changeM1 = () => {
     const m = initMonster(type1)
@@ -72,7 +71,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
-      <Container>
+      <WindowWrapper>
         <div style={{
           display: 'flex',
           gap: 20,
@@ -80,6 +79,7 @@ export default function Home() {
           <div>
             <h1>{m1.name}</h1>
             <div style={{
+              margin: '0 auto',
               maxWidth: 4 * 40,
               minHeight: 4 * 40,
               display: 'grid',
@@ -94,13 +94,13 @@ export default function Home() {
             </div>
             <button onClick={changeM1}>洗炼</button>
             <div>
-              <select value={skill1} onChange={e => setSkill1(e.target.value)}>
+              <select value={skill1} onChange={e => setSkill1(Number(e.target.value))}>
                 {skillData.map(s => <option key={s.id} value={s.id}>{s.name}</option>)}
               </select>
               <button onClick={addM1Skill}>添加技能</button>
             </div>
             <div>
-              <select value={type1} onChange={e => setType1(e.target.value)}>
+              <select value={type1} onChange={e => setType1(Number(e.target.value))}>
                 {monsterData.map(s => <option key={s.id} value={s.id}>{s.name}</option>)}
               </select>
               <button onClick={() => {
@@ -111,6 +111,7 @@ export default function Home() {
           <div>
             <h1>{m2.name}</h1>
             <div style={{
+              margin: '0 auto',
               maxWidth: 4 * 40,
               minHeight: 4 * 40,
               display: 'grid',
@@ -125,13 +126,13 @@ export default function Home() {
             </div>
             <button onClick={changeM2}>洗炼</button>
             <div>
-              <select value={skill2} onChange={e => setSkill2(e.target.value)}>
+              <select value={skill2} onChange={e => setSkill2(Number(e.target.value))}>
                 {skillData.map(s => <option key={s.id} value={s.id}>{s.name}</option>)}
               </select>
               <button onClick={addM2Skill}>添加技能</button>
             </div>
             <div>
-              <select value={type2} onChange={e => setType2(e.target.value)}>
+              <select value={type2} onChange={e => setType2(Number(e.target.value))}>
                 {monsterData.map(s => <option key={s.id} value={s.id}>{s.name}</option>)}
               </select>
               <button onClick={() => {
@@ -150,6 +151,7 @@ export default function Home() {
                 <h1>{m3.name}</h1>
                 <p>{m3.wild ? '野生' : '宝宝'}</p>
                 <div style={{
+                  margin: '0 auto',
                   maxWidth: 4 * 40,
                   minHeight: 4 * 40,
                   display: 'grid',
@@ -170,7 +172,7 @@ export default function Home() {
             )}
           </div>
         </div>
-      </Container>
+      </WindowWrapper>
     </div>
   )
 }
