@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React, {useEffect, useState} from "react";
-import {initMonster, initMonsterWithSkill, mixMonster} from "@/src/libs/monster";
+import {initMonster, initMonsterWithSkill, mixMonster, replaceSkill} from "@/src/libs/monster";
 import {unique} from "@/src/utils";
 import Container from "@/src/components/Container";
 
@@ -12,8 +12,14 @@ export default function Home() {
   const [m2, setM2] = useState<Monster>(initMonster("2036"))
   const [m3, setM3] = useState<Monster>()
 
-  const [skill1, setSkill1] = useState<string>(skillData[0].id)
-  const [skill2, setSkill2] = useState<string>(skillData[0].id)
+  const [m1Skill1, setM1Skill1] = useState<string>(skillData[0].id)
+  const [m2Skill1, setM2Skill1] = useState<string>(skillData[0].id)
+  const [m3Skill1, setM3Skill1] = useState<string>(skillData[0].id)
+
+  const [m1Skill2, setM1Skill2] = useState<string>(skillData[0].id)
+  const [m2Skill2, setM2Skill2] = useState<string>(skillData[0].id)
+  const [m3Skill2, setM3Skill2] = useState<string>(skillData[0].id)
+
 
   const [type1, setType1] = useState<string>("2399")
   const [type2, setType2] = useState<string>("2036")
@@ -34,16 +40,44 @@ export default function Home() {
   }
 
   const addM1Skill = () => {
-    if (skill1) {
-      const m = initMonsterWithSkill(m1.mid, unique([...m1.skills, skill1]))
+    if (m1Skill1) {
+      const m = initMonsterWithSkill(m1.mid, unique([...m1.skills, m1Skill1]))
       setM1(m)
     }
   }
 
   const addM2Skill = () => {
-    if (skill2) {
-      const m = initMonsterWithSkill(m2.mid, unique([...m2.skills, skill2]))
+    if (m2Skill1) {
+      const m = initMonsterWithSkill(m2.mid, unique([...m2.skills, m2Skill1]))
       setM2(m)
+    }
+  }
+
+  const addM3Skill = () => {
+    if (m3 && m3Skill1) {
+      const m = initMonsterWithSkill(m3.mid, unique([...m3.skills, m3Skill1]))
+      setM3(m)
+    }
+  }
+
+  const replaceM1Skill = () => {
+    if (m1Skill2 && m1) {
+      const m = replaceSkill(m1, m1Skill2)
+      setM1(m)
+    }
+  }
+
+  const replaceM2Skill = () => {
+    if (m2Skill2 && m2) {
+      const m = replaceSkill(m2, m2Skill2)
+      setM2(m)
+    }
+  }
+
+  const replaceM3Skill = () => {
+    if (m3Skill2 && m3) {
+      const m = replaceSkill(m3, m3Skill2)
+      setM3(m)
     }
   }
 
@@ -94,7 +128,13 @@ export default function Home() {
             </div>
             <button onClick={changeM1}>洗炼</button>
             <div>
-              <select value={skill1} onChange={e => setSkill1(e.target.value)}>
+              <select value={m1Skill2} onChange={e => setM1Skill2(e.target.value)}>
+                {skillData.map(s => <option key={s.id} value={s.id}>{s.name}</option>)}
+              </select>
+              <button onClick={replaceM1Skill}>打书</button>
+            </div>
+            <div>
+              <select value={m1Skill1} onChange={e => setM1Skill1(e.target.value)}>
                 {skillData.map(s => <option key={s.id} value={s.id}>{s.name}</option>)}
               </select>
               <button onClick={addM1Skill}>添加技能</button>
@@ -125,11 +165,18 @@ export default function Home() {
             </div>
             <button onClick={changeM2}>洗炼</button>
             <div>
-              <select value={skill2} onChange={e => setSkill2(e.target.value)}>
+              <select value={m2Skill2} onChange={e => setM2Skill2(e.target.value)}>
+                {skillData.map(s => <option key={s.id} value={s.id}>{s.name}</option>)}
+              </select>
+              <button onClick={replaceM2Skill}>打书</button>
+            </div>
+            <div>
+              <select value={m2Skill1} onChange={e => setM2Skill1(e.target.value)}>
                 {skillData.map(s => <option key={s.id} value={s.id}>{s.name}</option>)}
               </select>
               <button onClick={addM2Skill}>添加技能</button>
             </div>
+
             <div>
               <select value={type2} onChange={e => setType2(e.target.value)}>
                 {monsterData.map(s => <option key={s.id} value={s.id}>{s.name}</option>)}
@@ -161,6 +208,18 @@ export default function Home() {
                     // eslint-disable-next-line @next/next/no-img-element
                     return <img key={sid} src={skill?.icon} alt={skill?.name}/>
                   })}
+                </div>
+                <div>
+                  <select value={m3Skill2} onChange={e => setM3Skill2(e.target.value)}>
+                    {skillData.map(s => <option key={s.id} value={s.id}>{s.name}</option>)}
+                  </select>
+                  <button onClick={replaceM3Skill}>打书</button>
+                </div>
+                <div>
+                  <select value={m3Skill1} onChange={e => setM3Skill1(e.target.value)}>
+                    {skillData.map(s => <option key={s.id} value={s.id}>{s.name}</option>)}
+                  </select>
+                  <button onClick={addM3Skill}>添加技能</button>
                 </div>
                 <div>
                   <button onClick={resetM1}>替换1</button>

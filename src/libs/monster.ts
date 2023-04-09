@@ -9,7 +9,7 @@ import {
   MIX_MONSTER_TURTLE_RATE,
   MIX_MONSTER_WILD_RATE,
   MUTEX_SKILLS,
-  SKILL_SORT, MIX_MONSTER_SKILL_NUM_RATE,
+  SKILL_SORT, MIX_MONSTER_SKILL_NUM_RATE, REQUIRED_SKILL_COVER_RATE, OPTIONAL_SKILL_COVER_RATE, ADD_SKILL_RATE,
 } from '../config/constant';
 import {MSTID_DAHAIGUI, MSTID_PAOPAO} from "@/src/config/monster_constant";
 
@@ -98,7 +98,7 @@ export const sortSkills = (skills: string[]) => {
 
 // 过滤所有互斥技能
 export const filterMutexSkills = (skills: string[]) => {
-  const mutexSkills = MUTEX_SKILLS.map((s) => s.sort((a, b) => a - b));
+  const mutexSkills = MUTEX_SKILLS.map((s) => s.sort((a, b) => Number(a) - Number(b)));
   const skillsSort = skills.sort((a, b) => Number(a) - Number(b));
   const skillsSet = new Set(skillsSort);
   const mutexSkillsSet = new Set(mutexSkills.map((s) => s.join(',')));
@@ -115,4 +115,74 @@ export const filterMutexSkills = (skills: string[]) => {
   return Array.from(skillsSet);
 }
 
+// 替换技能
+export const replaceSkill = (monster: Monster, skill: string) => {
+  // 打乱技能顺序
+  const skills = shuffle(monster.skills.slice())
+  let isReplace = false;
+
+  // 如果技能为空，那么就直接添加
+  if (skills.length === 0) {
+    return addSkill(monster, skill);
+  }
+
+  // 判断是否已经有该技能
+  const hasSkill = skills.includes(skill);
+  if (hasSkill) {
+    return monster;
+  }
+
+  // 判断该技能是否与召唤兽的原有的技能互斥
+  const monsterInitInfo = monsterData.find((m) => m.id === monster.mid) as MonsterInintail;
+  const isMutexSkill = MUTEX_SKILLS.some((s) => s.includes(skill) && s.some((sk) => monsterInitInfo.requiredSkills.includes(sk)));
+  if (isMutexSkill) {
+    return monster;
+  }
+
+  // 如果技能少于3个，那么就判断是否可以添加
+  if (skills.length < 3) {
+    if (getRateTrue(ADD_SKILL_RATE)) {
+      return {
+        ...monster,
+        skills: sortSkills(unique([...skills, skill])),
+      }
+    }
+    return monster;
+  }
+
+
+  const newSkills = skills.map((s: string, index) => {
+    const skl = skillData?.find((sk) => sk.id === s) as Skill;
+
+    // 判断该技能是否是召唤兽的必带技能
+    const monsterInitInfo = monsterData.find((m) => m.id === monster.mid) as MonsterInintail;
+    const isRequiredSkill = monsterInitInfo.requiredSkills.includes(s);
+    const rate = getRateTrue(skl.rate * (isRequiredSkill ? REQUIRED_SKILL_COVER_RATE : OPTIONAL_SKILL_COVER_RATE));
+
+    if (rate && !isReplace) {
+      isReplace = true;
+      return skill;
+    }
+    // 如果最后一个最后一个都没有替换成功，那么就替换最后一个
+    if (index === skills.length - 1 && !isReplace) {
+      return skill;
+    }
+    return s;
+  });
+
+  return {
+    ...monster,
+    skills: sortSkills(newSkills),
+  };
+}
+
+// 添加技能
+export const addSkill = (monster: Monster, skill: string) => {
+  const skills = monster.skills.slice();
+  skills.push(skill);
+  return {
+    ...monster,
+    skills: sortSkills(skills),
+  };
+}
 
